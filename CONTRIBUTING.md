@@ -1,1 +1,0 @@
-If you want your tutorial to be published on VirtualHub, then add it to the wiki on GitHub. I will add it to the website with credits. If you contribute more than 5 tutorials, you may be given access to the Publii files so that you can add you tutorial to the website directly.

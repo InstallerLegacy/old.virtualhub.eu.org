@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/downloads/</loc>
-<lastmod>2022-04-08T19:36:40+05:30</lastmod>
+<lastmod>2022-04-09T19:37:44+05:30</lastmod>
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-experience-86-dos/</loc>
@@ -38,7 +38,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-experience-cpm-68k/</loc>
-<lastmod>2022-04-08T19:43:33+05:30</lastmod>
+<lastmod>2022-04-09T19:34:00+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-68k]]></image:title>
@@ -50,6 +50,22 @@
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-68k]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-experience-cpm-68k-using-musashi-simulator/</loc>
+<lastmod>2022-04-09T19:36:01+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2-2.png</image:loc>
+<image:title><![CDATA[List of FIles in Musashi Emulator's CP/M-68k]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-1.png</image:loc>
+<image:title><![CDATA[Musashi Simulator]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2.png</image:loc>
+<image:title><![CDATA[List of Files in CP/M-68k in Musashi Simulator]]></image:title>
 </image:image>
 </url>
 <url>
