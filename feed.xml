@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>VirtualHub</title>
+    <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
+    <link href="https://virtualhub.eu.org" />
+    <updated>2022-04-08T19:43:33+05:30</updated>
+    <author>
+        <name>Legacy Installer</name>
+    </author>
+    <id>https://virtualhub.eu.org</id>
+
+    <entry>
+        <title>How to experience CP/M-68k?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-experience-cpm-68k/"/>
+        <id>https://virtualhub.eu.org/how-to-experience-cpm-68k/</id>
+            <category term="Other Emulator"/>
+            <category term="CP/M-68k"/>
+            <category term="CP/M"/>
+
+        <updated>2022-04-08T19:43:33+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png" alt="List of Files in CP/M-68k" />
+                    In the last post, we saw how to experience CP/M-80 3.0. In this tutorial we are going to experience CP/M-68k&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png" alt="List of Files in CP/M-68k" />
+                <p>In the last post, we saw <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-30/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 3.0</a>. In this tutorial we are going to experience CP/M-68k There are two ways to do so. In this tutorial we are going to use the Altair Z80 emulator which we used for the 86-DOS and some other CP/M versions. You can download the emulator package from here:</p>
+<ul>
+<li><a href="https://archive.org/download/cpm-68k/CPM68konlinux.tar.xz">CP/M-68k for Linux</a></li>
+<li><a href="https://archive.org/download/cpm-68k/CPM68konwindows.zip">CP/M-68k for Windows</a></li>
+</ul>
+<p class="msg msg--success"><span style="text-decoration: underline;"><strong>Note</strong></span><br>This Operating System requires the beta version of Altair Z80 emulator and will not work with the stable version which are used in the previous tutorials. The archives above contain the required beta version of the emulator.</p>
+<h2>Using CP/M-68k</h2>
+<p>It is very easy to start using CP/M-68k. On Linux, extract the above archive and right click on the cpm-68k.sh file and choose "Run as a Program" or run the shell file the way you run any other shell file. On Windows, extract the above archive and double click the Runme.bat file. The Virtual Machine will start.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-md.png 768w"  alt="CP/M-68k on Altair Z80 emulator" width="834" height="630"></figure>Note that since we are using the beta version of emulator, it will throw some errors at startup but it does not cause any problem and you do not need to do anything. You can enter the DIR command to see a list of files.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-md.png 768w"  alt="List of Files in CP/M-68k" width="834" height="630"></figure>That's it! We used CP/M-68k.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20220324101705/http://www.cpm.z80.de/manuals/ug68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k User's Guide</a></li>
+<li><a href="https://web.archive.org/web/20191020123945/http://www.cpm.z80.de/manuals/sys68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k System Guide</a></li>
+<li><a href="https://web.archive.org/web/20191020123944/http://www.cpm.z80.de/manuals/pg68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k Programmer's Guide</a></li>
+<li><a href="https://web.archive.org/web/20220324101727/http://www.cpm.z80.de/manuals/c68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k C Programming Guide</a></li>
+</ul>
+<p class="msg msg--success"><span style="text-decoration: underline;"><strong>Note</strong></span><br>These manuals are in PostScript format. You first need to unzip them then use a PostScript reader to read them.</p>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/CP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="http://www.cpm.z80.de/" target="_blank" rel="noopener noreferrer">The Unofficial CP/M Web site</a></li>
+<li><a href="http://z80.de/ehome.htm" target="_blank" rel="noopener noreferrer">Gaby's Homepage for CP/M and Computer History</a></li>
+<li><a href="http://www.retroarchive.org/cpm" target="_blank" rel="noopener noreferrer">Commercial CP/M Software (Retro Archive)</a></li>
+<li><a href="http://z80.de/ecpmlink.htm" target="_blank" rel="noopener noreferrer">A lots of other links</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is linked above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to experience CP/M-80 3.0?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-experience-cpm-80-30/"/>
+        <id>https://virtualhub.eu.org/how-to-experience-cpm-80-30/</id>
+            <category term="Other Emulator"/>
+            <category term="CP/M-80"/>
+            <category term="CP/M"/>
+
+        <updated>2022-04-07T19:08:41+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png" alt="List of Files in CP/M-80 3.0" />
+                    In the last post, we saw how to use WordStar 4.0 on YAZE. In this tutorial we are going to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png" alt="List of Files in CP/M-80 3.0" />
+                <p>In the last post, we saw <a href="https://virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/" target="_blank" rel="noopener noreferrer">how to use WordStar 4.0 on YAZE</a>. In this tutorial we are going to experience CP/M-80 3.0. You can download the emulator package from here:</p>
+<ul>
+<li><a href="https://archive.org/download/cpm-80-v3.0/CPM80v3.0onlinux.tar.xz">CP/M-80 3.0 for Linux</a></li>
+<li><a href="https://archive.org/download/cpm-80-v3.0/CPM80v3.0onwindows.zip">CP/M-80 3.0 for Windows</a></li>
+</ul>
+<h2>Using CP/M-80 3.0</h2>
+<p>It is very easy to start using CP/M-80 3.0. On Linux, extract the above archive and right click on the cpm3.sh file and choose "Run as a Program" or run the shell file the way you run any other shell file. On Windows, extract the above archive and double click the Runme.bat file. The Virtual Machine will start.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-md.png 768w"  alt="CP/M-80 3.0 on Altair Z80 Emulator" width="834" height="630"></figure>You can enter the DIR command to see a list of files.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-md.png 768w"  alt="List of Files in CP/M-80 3.0" width="834" height="630"></figure>That's it! We used CP/M-80 3.0, an operating system launched in 1984 after 38 years (at the time of writing this tutorial).</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20220324101639/http://www.cpm.z80.de/manuals/cpm3-usr.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 User's Guide</a></li>
+<li><a href="https://web.archive.org/web/20220324101647/http://www.cpm.z80.de/manuals/cpm3-sys.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 System Guide</a></li>
+<li><a href="https://web.archive.org/web/20220324101545/http://www.cpm.z80.de/manuals/cpm3-pgr.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 Programmer's Guide</a></li>
+<li><a href="https://web.archive.org/web/20220324101549/http://www.cpm.z80.de/manuals/cpm3-cmd.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 Command Summary</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/CP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="http://www.cpm.z80.de/" target="_blank" rel="noopener noreferrer">The Unofficial CP/M Web site</a></li>
+<li><a href="http://z80.de/ehome.htm" target="_blank" rel="noopener noreferrer">Gaby's Homepage for CP/M and Computer History</a></li>
+<li><a href="http://www.retroarchive.org/cpm" target="_blank" rel="noopener noreferrer">Commercial CP/M Software (Retro Archive)</a></li>
+<li><a href="http://z80.de/ecpmlink.htm" target="_blank" rel="noopener noreferrer">A lots of other links</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is linked above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use WordStar 4.0 on YAZE?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/"/>
+        <id>https://virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/</id>
+            <category term="WordStar"/>
+            <category term="CP/M"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T19:41:19+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1.png" alt="WordStar 4.0 on YAZE" />
+                    In the last tutorial we saw how to use the demo included with NCR Decision Mate V on CP/M-80 2.2.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1.png" alt="WordStar 4.0 on YAZE" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to use the demo included with NCR Decision Mate V on CP/M-80 2.2</a>. In this tutorial we will see how to use WordStar 4.0 on YAZE. You do not need any files for this tutorial.</p>
+<h2>Using WordStar 4.0 on YAZE</h2>
+<p>First you need to install CP/M-80 2.2 using YAZE. If you have not already done so see <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-yaze/" target="_blank" rel="noopener noreferrer">our tutorial on that topic</a>. After you have installed CP/M-80 2.2 using YAZE, we can start WorsStar 4.0. Start the Virtual Machine and enter the following command:</p>
+<pre>ws</pre>
+<p>Wordstar 4.0 will start:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/17/responsive/WordStar-4.0-CPM-YAZE-1-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/17/responsive/WordStar-4.0-CPM-YAZE-1-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/17/responsive/WordStar-4.0-CPM-YAZE-1-2-md.png 768w"  alt="WordStar 4.0 on YAZE" width="834" height="630"></figure>You can press <code>X</code> to exit WordStar. Read the mannuals linked below to learn how to use WordStar.</p>
+<div class="post__entry">
+<p>That's it. We use WordStar 4.0, a software released in 1987.</p>
+<h2>Manuals</h2>
+<div class="post__entry">
+<ul>
+<li><a href="https://web.archive.org/web/20200727101218/http://bitsavers.org/pdf/microPro/Wordstar_4/Wordstar_CPM_Release_4_1987.pdf" target="_blank" rel="noopener noreferrer">WordStar 4.0 Manual</a></li>
+<li><a href="https://web.archive.org/web/20200727101231/http://bitsavers.org/pdf/microPro/Wordstar_4/Wordstar_CPM_Release_4_Whats_New_1987.pdf" target="_blank" rel="noopener noreferrer">WordStar 4.0 What's New</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/wordstar/40" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordStar" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.wordstar.org/" target="_blank" rel="noopener noreferrer">WordStar Resource Site</a></li>
+<li><a href="http://www.retroarchive.org/cpm/text/wordstar-collection.html" target="_blank" rel="noopener noreferrer">Retroarchive WordStar Collection</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The YAZE enulator is an open source project created by <a href="https://www.mathematik.uni-ulm.de/users/ag" target="_blank" rel="noopener noreferrer">Andreas Gerlich</a>. You can visit its <a href="https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/" target="_blank" rel="noopener noreferrer">website</a> to know more.</p>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use the demo included with NCR Decision Mate V on CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/</id>
+            <category term="Other Application"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:47:00+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png" alt="NC Decision Mate V demo" />
+                    In the last tutorial we saw how to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2. In this&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png" alt="NC Decision Mate V demo" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2</a>. In this tutorial we will see how to use the demo included with NCR Decision Mate V on CP/M-80 2.2. You do not need any files for this tutorial.</p>
+<h2>Using the Demo</h2>
+<p>First you need to install CP/M-80 2.2 using MAME's NCR Decision Mate V emulation. If you have not already done so see <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-ncr-decision-mate-v-emulation/" target="_blank" rel="noopener noreferrer">our tutorial on that topic</a>. After you have installed DMV CP/M-80 2.2, we can start the Demo. Start the Virtual Machine. Press the CAPS LOCK key to enable UI control. Then press the TAB key to open the menu.</p>
+<p>Then click on <code>File Manager &gt; floppydisk2</code>. Choose <code>extras</code> and then choose the <code>80NCRGRF.IMD</code> file from the list and choose <code>Read-write</code>.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/16/DEMO-CPM-MAME-dmv-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-md.png 768w"  alt="Insert the demo disk" width="1025" height="752"></figure>
+<p>Then click on <code>Return to Previous menu &gt; Return to the machine</code>. Press the CAPS LOCK key once again to turn off UI control. Now switch to B drive using the following command:</p>
+<pre>b:</pre>
+<p>And then, start the demo using the following command:</p>
+<pre>demo5</pre>
+<p>Here are some screenshots:</p>
+<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1-thumbnail.png" alt="DMV Demo Screeshot 1" width="765" height="529"></a></figure>
+<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2-thumbnail.png" alt="DMV Demo Screeshot 2" width="765" height="529"></a></figure>
+<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3-thumbnail.png" alt="DMV Demo Screeshot 3" width="765" height="529"></a></figure>
+<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4-thumbnail.png" alt="DMV Demo Screeshot 4" width="765" height="529"></a></figure>
+</div></div>
+<p>You can exit the demo by pressing <code>Ctrl</code> + <code>C</code>. You can now close the emulator.</p>
+<p>That's it. We used the demo included with NCR Decision Mate V. This software came with no Manuals and is not famous enough to have any related sites.</p>
+<h2>Credits</h2>
+<p>The <a href="https://mamedev.org/" target="_blank" rel="noopener noreferrer">MAME emulator</a> is an open source project hosted on <a href="https://github.com/mamedev/mame" target="_blank" rel="noopener noreferrer">github</a> developed by MAMEDev and contributors.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/</id>
+            <category term="WordStar"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:47:22+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/15/WordStar-3.0-CPM-MAME-dmv-1-2.png" alt="WordStar 3.0 on DMV" />
+                    In the last tutorial we saw how to use WordMaster with Sharp X1 CP/M-80 2.2. In this tutorial we will&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/15/WordStar-3.0-CPM-MAME-dmv-1-2.png" alt="WordStar 3.0 on DMV" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-use-wordmaster-with-sharp-x1-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to use WordMaster with Sharp X1 CP/M-80 2.2</a>. In this tutorial we will see how to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2. You do not need any files for this tutorial.</p>
+<h2>Using WordStar 3.0</h2>
+<p>First you need to install CP/M-80 2.2 using MAME's NCR Decision Mate V emulation. If you have not already done so see <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-ncr-decision-mate-v-emulation/" target="_blank" rel="noopener noreferrer">our tutorial on that topic</a>. After you have installed DMV CP/M-80 2.2, we can start using WordStar. You do not need to install anything. WordStar 3.0 came bundled with DMV's CP/M-80 2.2. Just start the VM and enter the following command:</p>
+<pre>ws</pre>
+<p>WordStar will open:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/15//WordStar-3.0-CPM-MAME-dmv-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/15//responsive/WordStar-3.0-CPM-MAME-dmv-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/15//responsive/WordStar-3.0-CPM-MAME-dmv-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/15//responsive/WordStar-3.0-CPM-MAME-dmv-1-md.png 768w"  alt="WordStar 3.0 on DMV" width="750" height="509"></figure>
+<p>Press X to exit WordStar. You can then close the emulator. Read the manuals linked below to learn how to use WordStar 3.0.</p>
+<p>That's it. We have installed WordStar 3.0, a software released in 1982.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20200727101209/http://bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_Training_Guide_2ed_Feb83.pdf" target="_blank" rel="noopener noreferrer">WordStar Training Guide</a></li>
+<li><a href="https://web.archive.org/web/20200727101128/http://bitsavers.org/pdf/microPro/Wordstar_3.0/Wordstar_3.0_General_Information_Manual_May81.pdf" target="_blank" rel="noopener noreferrer">Wordstar 3.0 General Information Manual</a></li>
+<li><a href="https://web.archive.org/web/20200727101134/http://bitsavers.org/pdf/microPro/Wordstar_3.0/Wordstar_3.0_Installation_Manual_May81.pdf" target="_blank" rel="noopener noreferrer">Wordstar 3.0 Installation Manual</a></li>
+<li><a href="https://web.archive.org/web/20200727101144/http://bitsavers.org/pdf/microPro/Wordstar_3.0/Wordstar_3.0_Reference_Manual_May81.pdf" target="_blank" rel="noopener noreferrer">Wordstar 3.0 Reference Manual</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/wordstar/300" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordStar" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.wordstar.org/" target="_blank" rel="noopener noreferrer">WordStar Resource Site</a></li>
+<li><a href="http://www.retroarchive.org/cpm/text/wordstar-collection.html" target="_blank" rel="noopener noreferrer">Retroarchive WordStar Collection</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The <a href="https://mamedev.org/" target="_blank" rel="noopener noreferrer">MAME emulator</a> is an open source project hosted on <a href="https://github.com/mamedev/mame" target="_blank" rel="noopener noreferrer">github</a> developed by MAMEDev and contributors.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to use WordMaster with Sharp X1 CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-use-wordmaster-with-sharp-x1-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-use-wordmaster-with-sharp-x1-cpm-80-22/</id>
+            <category term="WordStar"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:47:46+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1-2.png" alt="WordMaster Splash screen" />
+                    In the last tutorial we saw how to install SuperCalc 1.00 on CP/M-80 2.2. In this tutorial we will see&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1-2.png" alt="WordMaster Splash screen" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-install-supercalc-100-on-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to install SuperCalc 1.00 on CP/M-80 2.2</a>. In this tutorial we will see how to use WordMaster with Sharp X1 CP/M-80 2.2. WordMaster was a low-cost but powerful text editor for CP/M-80. This product pre-dated WordStar, but was only designed as a text editor, not a full blown word processor. You do not need any files for this tutorial.</p>
+<h2>Using WordMaster</h2>
+<p>First you need to install CP/M-80 2.2 using MAME's Sharp X1 emulation. If you have not already done so see <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-sharp-x1-emulation/" target="_blank" rel="noopener noreferrer">our tutorial on that topic</a>. After you have installed Sharp X1 CP/M-80 2.2, we can start using WordMaster. You do not need to install anything. WordMaster came bundled with Shap X1's CP/M-80 2.2. Just start the VM and enter the following command:</p>
+<pre>wm</pre>
+<p>You will see the WordMaster splash screen:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/14/responsive/WordMaster-1.0-CPM-MAME-x1-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/14/responsive/WordMaster-1.0-CPM-MAME-x1-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/14/responsive/WordMaster-1.0-CPM-MAME-x1-1-md.png 768w"  alt="WordMaster on Sharp X1 CP/M-80 2.2" width="712" height="591"></figure>
+<p>If you press any key, WordMaster will close. Press any key to continue. You need to start WordMaster with the name of the file you want to edit. For example:</p>
+<pre>wm hello.txt</pre>
+<p>If the file does not exist, it will be created. To exit WordMaster, press ESC then enter Q. When asked whether to quit or not enter Y. Read the manuals linked below to learn how to use WordMaster.</p>
+<p>That's it. We have installed WordMaster, a software released in 1981.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20220130174728/https://wiki.polaire.nl/lib/exe/fetch.php?media=micropro_wordmaster.pdf" target="_blank" rel="noopener noreferrer">WordMaster Manual</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/wordmaster/1x" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordMaster" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The <a href="https://mamedev.org/" target="_blank" rel="noopener noreferrer">MAME emulator</a> is an open source project hosted on <a href="https://github.com/mamedev/mame" target="_blank" rel="noopener noreferrer">github</a> developed by MAMEDev and contributors.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install SuperCalc 1.00 on CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-supercalc-100-on-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-install-supercalc-100-on-cpm-80-22/</id>
+            <category term="Other Application"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:48:17+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-1.png" alt="SuperCalc Splash Screen" />
+                    In the last tutorial we saw how to install Multiplan 1.06 on CP/M-80 2.2. In this tutorial we will see&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-1.png" alt="SuperCalc Splash Screen" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-install-multiplan-106-on-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to install Multiplan 1.06 on CP/M-80 2.2</a>. In this tutorial we will see how to install SuperCalc 1.00 on CP/M-80 2.2. SuperCalc was a spreadheet software from Sorcim. You can download the files required for this tutorial from here:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20210514212444/https://schorn.ch/cpm/zip/supercalc.zip" target="_blank" rel="noopener noreferrer">SuperCalc 1.00 package for Altair Z80s CP/M-80 2.2</a></li>
+</ul>
+<h2>Installing SuperCalc 1.00</h2>
+<p>First, you need to install CP/M-80 2.2 using Altair Z80 emulator. If have not already done so, see our tutorial on <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 2.2</a>. After you have installed CP/M-80 2.2, unzip the SuperCalc 1.00 package you downloaded from above. There are two files in that archive:</p>
+<ul>
+<li>supercalc</li>
+<li>supercalc.dsk</li>
+</ul>
+<p>Copy those two files to the folder where you stored the files for CP/M-80 2.2. Now you can open a terminal/Command Prompt and enter the following command to start CP/M-80 2.2 with SuperCalc 1.00 diskette loaded:</p>
+<pre>./altairz80l64 supercalc</pre>
+<p>Now type <code>b:</code> and press enter to switch to B drive. Enter the following command to start SuperCalc 1.00:</p>
+<pre>sc2</pre>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/13/responsive/SuperCalc-1.00-CPM-Altair-Z80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/13/responsive/SuperCalc-1.00-CPM-Altair-Z80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/13/responsive/SuperCalc-1.00-CPM-Altair-Z80-2-md.png 768w"  alt="SuperCalc 1.00 on CP/M-80 2.2" width="818" height="612"></figure>To exit SuperCalc, press <code>/</code> then <code>q</code> they <code>y</code>. Read the mannual linked below to learn how to use SuperCalc.</p>
+<p>We will now create shell/Batch scripts to start CP/M-80 2.2 with SuperCalc 1.00 diskette loaded in B drive.</p>
+<h3>On Linux</h3>
+<p>Create a file called <code>supercalc.sh</code> in the folder where you stored everything related to the VM with the following contents:</p>
+<pre>#!/bin/bash<br>./altairz80l64 supercalc</pre>
+<p>Save and close the file and make it executable by using this command:</p>
+<pre>chmod +x ./supercalc.sh</pre>
+<p>You need to execute the above command in the folder where you created that script. Now you can right click on that file and click on Run as Program to open the emulator. Some DEs and distros may have other methods of running shell scripts.</p>
+<h3>On Windows</h3>
+<p>On windows create a file called <code>supercalc.bat</code> in the folder where the emulator files are located with the following contents:</p>
+<pre>altairz80l64.exe supercalc</pre>
+<p>Save and close that file. Now you can double click the file to open the emulator with the SuperCalc 1.00 diskette loaded.</p>
+<p>That's it. We use SuperCalc 1.00, a software released in 1981.</p>
+<div class="post__entry">
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://archive.org/download/supercalc-1.0-manual/Supercalc%201.0.pdf">SuperCalc 1.00 Manual</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/supercalc/1x" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SuperCalc" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is used above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install Multiplan 1.06 on CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-multiplan-106-on-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-install-multiplan-106-on-cpm-80-22/</id>
+            <category term="Multiplan"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:49:05+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1-2.png" alt="Multiplan 1.06 for CP/M-80 2.2" />
+                    In the last tutorial we saw how to install WordStar 4.0 on CP/M-80 2.2. In this tutorial we will see&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1-2.png" alt="Multiplan 1.06 for CP/M-80 2.2" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-install-wordstar-40-on-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to install WordStar 4.0 on CP/M-80 2.2</a>. In this tutorial we will see how to install Multiplan 1.06 on CP/M-80 2.2. Multiplan was a spreadheet software from Microsoft and it was released much before the world started using Microsoft Excel, another spreadsheet software by Microsoft. You can download the files required for this tutorial from here:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20191206100425/https://schorn.ch/cpm/zip/multiplan.zip" target="_blank" rel="noopener noreferrer">Multiplan 1.06 package for Altair Z80s CP/M-80 2.2</a></li>
+</ul>
+<h2>Installing Multiplan 1.06</h2>
+<p>First, you need to install CP/M-80 2.2 using Altair Z80 emulator. If have not already done so, see our tutorial on <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 2.2</a>. After you have installed CP/M-80 2.2, unzip the Multiplan 1.06 package you downloaded from above. There are two files in that archive:</p>
+<ul>
+<li>multiplan</li>
+<li>multiplan.dsk</li>
+</ul>
+<p>Copy those two files to the folder where you stored the files for CP/M-80 2.2. Now you can open a terminal/Command Prompt and enter the following command to start CP/M-80 2.2 with Multiplan 1.06 diskette loaded:</p>
+<pre>./altairz80l64 multiplan</pre>
+<p>Now type <code>b:</code> and press enter to switch to B drive. Enter the following command to start Multiplan 1.06:</p>
+<pre>mp</pre>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/12/responsive/Multiplan-1.06-CPM-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/12/responsive/Multiplan-1.06-CPM-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/12/responsive/Multiplan-1.06-CPM-Altair-Z80-1-md.png 768w"  alt="Multiplan 1.06 for CP/M-80 2.2" width="834" height="630"></figure>To exit Multiplan, press tab key a few times until <code>Quit</code> is highlighted in the bottom bar, then press enter. Enter <code>y</code> when asked whether to quit or not. Read the mannual linked below to learn how to use Multiplan.</p>
+<p>We will now create shell/Batch scripts to start CP/M-80 2.2 with Multiplan 1.06 diskette loaded in B drive.</p>
+<h3>On Linux</h3>
+<p>Create a file called <code>multiplan.sh</code> in the folder where you stored everything related to the VM with the following contents:</p>
+<pre>#!/bin/bash<br>./altairz80l64 multiplan</pre>
+<p>Save and close the file and make it executable by using this command:</p>
+<pre>chmod +x ./multiplan.sh</pre>
+<p>You need to execute the above command in the folder where you created that script. Now you can right click on that file and click on Run as Program to open the emulator. Some DEs and distros may have other methods of running shell scripts.</p>
+<h3>On Windows</h3>
+<p>On windows create a file called <code>multiplan.bat</code> in the folder where the emulator files are located with the following contents:</p>
+<pre>altairz80l64.exe multiplan</pre>
+<p>Save and close that file. Now you can double click the file to open the emulator with the Multiplan 1.06 diskette loaded.</p>
+<p>That's it. We use Multiplan 1.06, a software released in 1982.</p>
+<div class="post__entry">
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20211013052749/http://www.bitsavers.org/pdf/microsoft/cpm/Microsoft_Multiplan_for_CPM_1982.pdf" target="_blank" rel="noopener noreferrer">Microsoft Multiplan for CPM Manual</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/multiplan/106" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multiplan" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://microsoft.fandom.com/wiki/Multiplan" target="_blank" rel="noopener noreferrer">Microsoft Fandom wiki page</a></li>
+<li><a href="https://eightbitworld1984.blogspot.com/2012/11/microsofts-first-spreadsheet-multiplan.html" target="_blank" rel="noopener noreferrer">A good blog post about Multiplan</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is used above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install WordStar 4.0 on CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-wordstar-40-on-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-install-wordstar-40-on-cpm-80-22/</id>
+            <category term="WordStar"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-08T13:58:19+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2-2.png" alt="Sample file on WordStar 4.0" />
+                    In the last tutorial we saw how to install WordStar 3.3 on CP/M-80 2.2. In this tutorial we will see&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2-2.png" alt="Sample file on WordStar 4.0" />
+                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-install-wordstar-33-on-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to install WordStar 3.3 on CP/M-80 2.2</a>. In this tutorial we will see how to install WordStar 4.0 on CP/M-80 2.2. You can download the files required for this tutorial from here:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20210505164107/https://schorn.ch/cpm/zip/wordstar.zip" target="_blank" rel="noopener noreferrer">WordStar 4.0 package for Altair Z80s CP/M-80 2.2</a></li>
+</ul>
+<h2>Installing WordStar 4.0</h2>
+<p>First, you need to install CP/M-80 2.2 using Altair Z80 emulator. If have not already done so, see our tutorial on <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 2.2</a>. After you have installed CP/M-80 2.2, unzip the WordStar 4.0 package you downloaded from above. There are two files in that archive:</p>
+<ul>
+<li>wordstar</li>
+<li>wordstar.dsk</li>
+</ul>
+<p>Copy those two files to the folder where you stored the files for CP/M-80 2.2. Now you can open a terminal/Command Prompt and enter the following command to start CP/M-80 2.2 with WordStar 4.0 diskette loaded:</p>
+<pre>./altairz80l64 wordstar</pre>
+<p>Now type <code>b:</code> and press enter to switch to B drive. Enter the following command to start WordStar 4.0:</p>
+<pre>ws</pre>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-1-md.png 768w"  alt="WordStar 4.0" width="834" height="630"></figure><br>You can press <code>X</code> to exit WordStar. Read the mannuals linked below to learn how to use WordStar.</p>
+<figure ><figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/11/responsive/WordStar-4.0-CPM-Altair-Z80-2-md.png 768w"  alt="A sample document on WordStar 4.0" width="834" height="630"></figure>
+<figcaption >A sample document on WordStar 4.0</figcaption>
+</figure>
+<p>We will now create shell/Batch scripts to start CP/M-80 2.2 with WordStar 4.0 diskette loaded in B drive.</p>
+<h3>On Linux</h3>
+<p>Create a file called <code>wordstar.sh</code> in the folder where you stored everything related to the VM with the following contents:</p>
+<pre>#!/bin/bash<br>./altairz80l64 wordstar</pre>
+<p>Save and close the file and make it executable by using this command:</p>
+<pre>chmod +x ./wordstar.sh</pre>
+<p>You need to execute the above command in the folder where you created that script. Now you can right click on that file and click on Run as Program to open the emulator. Some DEs and distros may have other methods of running shell scripts.</p>
+<h3>On Windows</h3>
+<p>On windows create a file called <code>wordstar.bat</code> in the folder where the emulator files are located with the following contents:</p>
+<pre>altairz80l64.exe wordstar</pre>
+<p>Save and close that file. Now you can double click the file to open the emulator with the WordStar 4.0 diskette loaded.</p>
+<p>That's it. We use WordStar 4.0, a software released in 1987.</p>
+<div class="post__entry">
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20200727101218/http://bitsavers.org/pdf/microPro/Wordstar_4/Wordstar_CPM_Release_4_1987.pdf" target="_blank" rel="noopener noreferrer">WordStar 4.0 Manual</a></li>
+<li><a href="https://web.archive.org/web/20200727101231/http://bitsavers.org/pdf/microPro/Wordstar_4/Wordstar_CPM_Release_4_Whats_New_1987.pdf" target="_blank" rel="noopener noreferrer">WordStar 4.0 What's New</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/wordstar/40" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordStar" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.wordstar.org/" target="_blank" rel="noopener noreferrer">WordStar Resource Site</a></li>
+<li><a href="http://www.retroarchive.org/cpm/text/wordstar-collection.html" target="_blank" rel="noopener noreferrer">Retroarchive WordStar Collection</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is used above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install WordStar 3.3 on CP/M-80 2.2?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-wordstar-33-on-cpm-80-22/"/>
+        <id>https://virtualhub.eu.org/how-to-install-wordstar-33-on-cpm-80-22/</id>
+            <category term="WordStar"/>
+            <category term="CP/M-80"/>
+            <category term="Application"/>
+
+        <updated>2022-04-06T10:50:13+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1-2.png" alt="WordStar 3.3 on CP/M-80 2.2 on Altair Z80 emulator" />
+                    In the last few tutorials we saw how to experience CP/M-80 2.2. But what use an OS is without some&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1-2.png" alt="WordStar 3.3 on CP/M-80 2.2 on Altair Z80 emulator" />
+                <p>In the last few tutorials we saw how to experience CP/M-80 2.2. But what use an OS is without some applications? In this tutorial we will see how to use WordStar 3.3 on CP/M-80 2.2 on Altair Z80 emulator. You can download the files required for this tutorial from here:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20220330051710/https://schorn.ch/cpm/zip/ws33.zip" target="_blank" rel="noopener noreferrer">WordStar 3.3 package for Altair Z80s CP/M-80 2.2</a></li>
+</ul>
+<h2>Installing WordStar 3.3</h2>
+<p>First, you need to install CP/M-80 2.2 using Altair Z80 emulator. If have not already done so, see our tutorial on <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 2.2</a>. After you have installed CP/M-80 2.2, unzip the WordStar 3.3 package you downloaded from above. There are two files in that archive:</p>
+<ul>
+<li>ws33</li>
+<li>ws33.dsk</li>
+</ul>
+<p>Copy those two files to the folder where you stored the files for CP/M-80 2.2. Now you can open a terminal/Command Prompt and enter the following command to start CP/M-80 2.2 with WordStar 3.3 diskette loaded:</p>
+<pre>./altairz80l64 ws33</pre>
+<p>Now type <code>b:</code> and press enter to switch to B drive. Enter the following command to start WordStar 3.3:</p>
+<pre>ws</pre>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/10/responsive/WordStar-3.3-CPM-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/10/responsive/WordStar-3.3-CPM-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/10/responsive/WordStar-3.3-CPM-Altair-Z80-1-md.png 768w"  alt="WordStar 3.3 running on CP/M-80 2.2 on Altair Z80 emulator" width="834" height="630"></figure>You can press <code>X</code> to exit WordStar. Read the mannuals linked below to learn how to use WordStar.</p>
+<p>We will now create shell/Batch scripts to start CP/M-80 2.2 with WordStar 3.3 diskette loaded in B drive.</p>
+<h3>On Linux</h3>
+<p>Create a file called <code>ws33.sh</code> in the folder where you stored everything related to the VM with the following contents:</p>
+<pre>#!/bin/bash<br>./altairz80l64 ws33</pre>
+<p>Save and close the file and make it executable by using this command:</p>
+<pre>chmod +x ./ws33.sh</pre>
+<p>You need to execute the above command in the folder where you created that script. Now you can right click on that file and click on Run as Program to open the emulator. Some DEs and distros may have other methods of running shell scripts.</p>
+<h3>On Windows</h3>
+<p>On windows create a file called <code>ws33.bat</code> in the folder where the emulator files are located with the following contents:</p>
+<pre>altairz80l64.exe ws33</pre>
+<p>Save and close that file. Now you can double click the file to open the emulator with the WordStar 3.3 diskette loaded.</p>
+<p>That's it. We use WordStar 3.3, a software released in 1983.</p>
+<div class="post__entry">
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20200727101155/http://bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_3.3_Installation_Manual_1983.pdf" target="_blank" rel="noopener noreferrer">WordStar Installation Manual For Release 3.3</a></li>
+<li><a href="https://web.archive.org/web/20210223080731/http://www.bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_3.3_Reference_Manual_1983.pdf" target="_blank" rel="noopener noreferrer">WordStar Reference Manual For Release 3.3</a></li>
+<li><a href="https://web.archive.org/web/20200727101209/http://bitsavers.org/pdf/microPro/Wordstar_3.3/Wordstar_Training_Guide_2ed_Feb83.pdf" target="_blank" rel="noopener noreferrer">WordStar 3.3 Training Guide</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/wordstar/330" target="_blank" rel="noopener noreferrer">WinWorld Page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WordStar" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.wordstar.org/" target="_blank" rel="noopener noreferrer">WordStar Resource Site</a></li>
+<li><a href="http://www.retroarchive.org/cpm/text/wordstar-collection.html" target="_blank" rel="noopener noreferrer">Retroarchive WordStar Collection</a></li>
+</ul>
+<h2>Credits</h2>
+<p>The emulator which is used above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+</feed>
