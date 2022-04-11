@@ -3,7 +3,7 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-04-11T19:44:25+05:30</updated>
+    <updated>2022-04-11T20:58:41+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="DOS"/>
             <category term="86Box"/>
 
-        <updated>2022-04-11T19:44:25+05:30</updated>
+        <updated>2022-04-11T20:58:41+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png" alt="MS DOS 1.25 on 86Box" />
@@ -42,7 +42,7 @@
 </ul>
 <p>MS DOS 1.25 was not sold as a retailed package. It was only available to OEMs. In this tutorial we use the Columbia Data Products OEM that works well on IBM PC clones.</p>
 <h2>Creating the Virtual Machine</h2>
-<p>If you have not installed 86Box yet, see our tutorial on </p>
+<p>If you have not installed 86Box yet, see our tutorial on <a href="https://legacyinstaller.pcriot.com/vm-software/how-to-install-86box-on-linux-along-with-a-manager" target="_blank" rel="noopener noreferrer">how to install 86Box on Linux</a> or <a href="https://legacyinstaller.pcriot.com/vm-software/86box" target="_blank" rel="noopener noreferrer">how to install 86Box on Windows</a>.</p>
 <p>Open the 86Box Manager. Click on Add and enter the details for your VM. Tick the "Configure this VM now" checkbox. Then click on Add.</p>
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-md.png 768w"  alt="86Box new VM wizard" width="600" height="304"></figure>
 <p>Leave the Machine type to <code>8088</code>. In the Machine Dropbox, choose <code>[8088] OpenXT</code>. Change the speed to <code>16</code> and memory to <code>640 KB</code>. Click on OK.</p>
