@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/downloads/</loc>
-<lastmod>2022-04-11T13:54:09+05:30</lastmod>
+<lastmod>2022-04-11T19:45:16+05:30</lastmod>
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-experience-86-dos/</loc>
@@ -226,6 +226,34 @@
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-80 3.0]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/</loc>
+<lastmod>2022-04-11T19:44:25+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on 86Box]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-1.png</image:loc>
+<image:title><![CDATA[86Box new VM wizard]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-2.png</image:loc>
+<image:title><![CDATA[86Box MS DOS 1.25 settings]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-3.png</image:loc>
+<image:title><![CDATA[Choosing the Floppy DIsk]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-4.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on 86Box]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5.png</image:loc>
+<image:title><![CDATA[List of files in MS DOS 1.25]]></image:title>
 </image:image>
 </url>
 <url>
