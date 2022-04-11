@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/downloads/</loc>
-<lastmod>2022-04-09T19:37:44+05:30</lastmod>
+<lastmod>2022-04-11T13:54:09+05:30</lastmod>
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-experience-86-dos/</loc>
@@ -278,6 +278,30 @@
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[A sample document on WordStar 4.0]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-use-mpm-ii/</loc>
+<lastmod>2022-04-11T13:56:01+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4-2.png</image:loc>
+<image:title><![CDATA[MP/M emulator]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-1.png</image:loc>
+<image:title><![CDATA[MP/M Emulator]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-2.png</image:loc>
+<image:title><![CDATA[Connecting to MP/M]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-3.png</image:loc>
+<image:title><![CDATA[MP/M list of files]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4.png</image:loc>
+<image:title><![CDATA[MP/M multi-user session]]></image:title>
 </image:image>
 </url>
 <url>
