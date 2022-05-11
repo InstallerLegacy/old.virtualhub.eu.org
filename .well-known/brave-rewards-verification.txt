@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: virtualhub.eu.org
+Token: 43809b3af58f7358ee90d72ab03799e5170e505546d0566b0909b5015dd16fb0
