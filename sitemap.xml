@@ -230,7 +230,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/</loc>
-<lastmod>2022-04-11T20:58:41+05:30</lastmod>
+<lastmod>2022-05-17T17:57:23+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on 86Box]]></image:title>
@@ -253,6 +253,26 @@
 </image:image>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5.png</image:loc>
+<image:title><![CDATA[List of files in MS DOS 1.25]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/</loc>
+<lastmod>2022-05-17T17:51:49+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2-2.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on DOSBox]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-1.png</image:loc>
+<image:title><![CDATA[Editing the DOSBox config file]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on DOSBox]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-3.png</image:loc>
 <image:title><![CDATA[List of files in MS DOS 1.25]]></image:title>
 </image:image>
 </url>
