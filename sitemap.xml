@@ -258,7 +258,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/</loc>
-<lastmod>2022-05-25T16:00:39+05:30</lastmod>
+<lastmod>2022-05-25T18:49:15+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox]]></image:title>
@@ -277,8 +277,28 @@
 </image:image>
 </url>
 <url>
+<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/</loc>
+<lastmod>2022-05-25T18:47:27+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2-2.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on DOSBox-Staging]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-1.png</image:loc>
+<image:title><![CDATA[Editing the default DOSBox-Staging config file]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2.png</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on DOSBox-staging]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-3.png</image:loc>
+<image:title><![CDATA[List of files on MS DOS 1.25 on DOSBox-Staging]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-x/</loc>
-<lastmod>2022-05-25T16:09:36+05:30</lastmod>
+<lastmod>2022-05-25T18:48:31+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-X]]></image:title>
