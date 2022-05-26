@@ -3,12 +3,113 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-05-25T18:49:15+05:30</updated>
+    <updated>2022-05-26T12:00:00+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
     <id>https://virtualhub.eu.org</id>
 
+    <entry>
+        <title>How to install MS DOS 1.25 on MAME?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-mame/"/>
+        <id>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-mame/</id>
+            <category term="MS DOS"/>
+            <category term="MAME"/>
+            <category term="DOS"/>
+
+        <updated>2022-05-26T12:00:00+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3-2.png" alt="List of Files on MS DOS 1.25 on MAME" />
+                    In the last tutorial, we saw how to install MS DOS 1.25 on DOSBox-Staging. In this tutorial, we are going&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3-2.png" alt="List of Files on MS DOS 1.25 on MAME" />
+                <p>In the last tutorial, we saw <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on DOSBox-Staging</a>. In this tutorial, we are going to install MS DOS 1.25 on MAME. If you want an introduction to MS DOS 1.25, I suggest you to read the first few paragraphs of our post <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on 86Box</a>.</p>
+<p>You need to download the following file to follow this tutorial:</p>
+<ul>
+<li><a href="https://winworldpc.com/download/c38ac396-c2a7-6f3c-e280-9e11c3a4c2a8" target="_blank" rel="noopener noreferrer">MS DOS 1.25 CDP OEM archive</a></li>
+<li><a href="https://archive.org/download/mame-merged/mame-merged/ibm5150.zip">MAME ibm5150 ROM</a></li>
+<li><a href="https://archive.org/download/mame-merged/mame-merged/isa_hdc.zip">MAME isa_hdc ROM</a></li>
+<li><a href="https://archive.org/download/mame-merged/mame-merged/keytronic_pc3270.zip">MAME keytronic_pc3270 ROM</a></li>
+<li><a href="https://virtualhub.eu.org/media/files/mame.ini.linux.tar.xz" download>mame.ini file for Linux</a></li>
+<li><a href="https://virtualhub.eu.org/media/files/mame.ini.windows.zip" download>mame.ini file for Windows</a></li>
+</ul>
+<p>MS DOS 1.25 was not sold as a retailed package. It was only available to OEMs. In this tutorial we use the Columbia Data Products OEM that works well on IBM PC clones.</p>
+<h2>Creating the Virtual Machine</h2>
+<p>First you need to make sure you have installed MAME. For windows, see our tutorial on Legacy Installer on <a href="https://legacyinstaller.pcriot.com/vm-software/mame" target="_blank" rel="noopener noreferrer">how to install MAME on Windows</a>. For linux, you can install mame from the official repository of your distribution. See <a href="https://pkgs.org/download/mame" target="_blank" rel="noopener noreferrer">this page</a> for a list of distributions offering the package. If your distribution does not include mame in its repositories (highly unlikely), you can <a href="https://docs.mamedev.org/initialsetup/compilingmame.html" target="_blank" rel="noopener noreferrer">build MAME from source</a>.</p>
+<p>After you have installed MAME, you need to create a folder in which all the files related to the emulator will reside. Open a Terminal/Command Prompt window and move to that folder. Then run:</p>
+<pre>mame -cc</pre>
+<p>You may need to specify the path to MAME if you are on Windows:</p>
+<pre>"C:\Program Files\MAME\mame.exe" -cc</pre>
+<p>This command will create some basic config files for MAME in that folder. Now open the folder in your File Manager and delete the <code>mame.ini</code> file. Extract the <code>mame.ini</code> file from the archive you downloaded above according to your platform and copy it to the folder in which you are storing all the files related to the emulator. Create a folder called <code>roms</code> in that folder. Copy the ROM archives to that folder. Do not extract the ROMs from the zip files. Move the zip files without extracting to the <code>roms</code> folder.</p>
+<p>Extract the MS DOS 1.25 archive and open the extracted folder. Go to the images folder inside it and copy the file called <code>CDPDOS.IMG</code> to the folder where you are storing all the files related to the emulator.</p>
+<p>Now switch back to the terminal and run:</p>
+<pre>mame ibm5150 -flop1 CDPDOS.IMG</pre>
+<p>You need to prefix <code>mame</code> with the path on Windows as shown above. The mame window should open:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-1-md.png 768w"  alt="MAME with ibm5150" width="702" height="535"></figure>
+<p> If the window does not open and you get a ROM not found or similar error, see the troubleshooting section below. Press any key to continue. The emulation of this machine is not perfect. You will be informed about this by MAME. Press any key to continue. It might take a long time depending on your system for MS DOS 1.25 to boot. After it has booted, you will see the following screen:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-2-md.png 768w"  alt="MS DOS 1.25 on MAME" width="697" height="551"></figure>
+<p>When asked for Date and time, just press enter. Do not enter anything. MS DOS 1.25 has problems with dates later than year 2000, so it is best to leave the default date set. You can enter the <code>DIR</code> command to see the list of files:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-3-xs.png 300w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-3-sm.png 480w ,https://virtualhub.eu.org/media/posts/26/responsive/MSDOS1.25-MAME-3-md.png 768w"  alt="List of files on MS DOS 1.25 on MAME" width="697" height="551"></figure>
+<p>Now, you can close this window. Now, we can make a shell script which runs the VM on linux:</p>
+<pre>#!/bin/bash<br>mame ibm5150 -flop1 CDPDOS.IMG</pre>
+<p>and save the file as MSDOS1.25.sh. Then make the script executable by running the following command in terminal after navigating to that folder:</p>
+<pre>sudo chmod +x ./MSDOS1.25.sh</pre>
+<p>Then we can right click on that file and click on Run as Program to open the emulator. Some DEs and distros may have other methods of running shell scripts.</p>
+<p>On Windows, create a file called MSDOS1.25.bat in that folder with the following contents:</p>
+<pre>"C:\Program Files\MAME\mame.exe" ibm5150 -flop1 CDPDOS.IMG</pre>
+<p>Then double click on that file to launch the emulator.</p>
+<p>That's it. We have installed and run MS DOS 1.25 using the MAME.</p>
+<h2>Troubleshooting</h2>
+<p>First make sure that you have placed the roms files in the correct place. Do not extract the files. Place the zip files directly in the <code>roms</code> folder.</p>
+<p>On Linux, there might be another error. MAME might have been configured to look in your <code>~/.mame</code> folder for its config files. If that is the case, running the command <code>mame</code> without any parameters in the folder where you have stored the files would result in MAME opening in full screen instead of a window. If you are affected by this problem, here is the solution:</p>
+<ul>
+<li>Configure your file manager to show hidden files.</li>
+<li>Go to the <code>~/.mame</code> folder.</li>
+<li>Delete the <code>mame.ini</code> file there.</li>
+<li>Copy the <code>mame.ini</code> file you downloaded from above to that folder.</li>
+</ul>
+<p>The <code>mame.ini</code> file you downloaded above instructs MAME to look for another mame.ini file in the current folder and use it if found. So, you can then follow the tutorial and everything will work.</p>
+<h3>Some explanation</h3>
+<p>I asked you to replace the <code>mame.ini</code> file with the one you downloaded from here. What are the differences between those files? Here are they:</p>
+<ul>
+<li>It instructs MAME to open in windowed mode instead of full screen.</li>
+<li>It modifies the key needed for enabling UI controls from Scroll Lock to Caps Lock. This is done because many keyboards do not have a Scroll Lock key.</li>
+<li>On Linux, it instructs MAME to first look for configuration files in the current directory, and if found, use them instead of the one from <code>~/.mame</code> folder.</li>
+</ul>
+<p>That is it.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://winworldpc.com/download/c387c5b8-c38c-c38e-3ce2-809e11c3a4ef" target="_blank" rel="noopener noreferrer">MS DOS 1.25 Manual</a></li>
+</ul>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/ms-dos/1x" target="_blank" rel="noopener noreferrer">WinWorld page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MS-DOS" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.pcjs.org/software/pcx86/sys/dos/compaq/1.12/" target="_blank" rel="noopener noreferrer">PCjs page - Run MS DOS 1.25 in you web browser</a></li>
+<li><a href="https://betawiki.net/wiki/MS-DOS_1.25" target="_blank" rel="noopener noreferrer">BetaWiki page</a></li>
+<li><a href="https://github.com/Microsoft/MS-DOS" target="_blank" rel="noopener noreferrer">MS DOS 1.25 Source Code (Open Source) - Microsoft GitHub</a></li>
+<li>Some related YouTube videos:
+<ul>
+<li><a href="https://youtu.be/WtoDbu6dOC4">https://youtu.be/WtoDbu6dOC4</a></li>
+<li><a href="https://youtu.be/pKcuHmpTMk0">https://youtu.be/pKcuHmpTMk0</a></li>
+</ul>
+</li>
+</ul>
+<h2>Credits</h2>
+<ul>
+<li>The <a href="https://mamedev.org/" target="_blank" rel="noopener noreferrer">MAME emulator</a> is an open source project hosted on <a href="https://github.com/mamedev/mame" target="_blank" rel="noopener noreferrer">github</a> developed by MAMEDev and contributors</li>
+<li>The disk image used above was taken from <a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer">WinWorld</a>.</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to install MS DOS 1.25 on DOSBox-Staging?</title>
         <author>
@@ -599,50 +700,6 @@
 <p>The YAZE enulator is an open source project created by <a href="https://www.mathematik.uni-ulm.de/users/ag" target="_blank" rel="noopener noreferrer">Andreas Gerlich</a>. You can visit its <a href="https://www.mathematik.uni-ulm.de/users/ag/yaze-ag/" target="_blank" rel="noopener noreferrer">website</a> to know more.</p>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to use the demo included with NCR Decision Mate V on CP/M-80 2.2?</title>
-        <author>
-            <name>Legacy Installer</name>
-        </author>
-        <link href="https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/"/>
-        <id>https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/</id>
-            <category term="Other Application"/>
-            <category term="CP/M-80"/>
-            <category term="Application"/>
-
-        <updated>2022-04-06T10:47:00+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png" alt="NC Decision Mate V demo" />
-                    In the last tutorial we saw how to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2. In this&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png" alt="NC Decision Mate V demo" />
-                <p>In the last tutorial we saw <a href="https://virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/" target="_blank" rel="noopener noreferrer">how to use WordStar 3.0 with NCR Decision Mate V CP/M-80 2.2</a>. In this tutorial we will see how to use the demo included with NCR Decision Mate V on CP/M-80 2.2. You do not need any files for this tutorial.</p>
-<h2>Using the Demo</h2>
-<p>First you need to install CP/M-80 2.2 using MAME's NCR Decision Mate V emulation. If you have not already done so see <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-ncr-decision-mate-v-emulation/" target="_blank" rel="noopener noreferrer">our tutorial on that topic</a>. After you have installed DMV CP/M-80 2.2, we can start the Demo. Start the Virtual Machine. Press the CAPS LOCK key to enable UI control. Then press the TAB key to open the menu.</p>
-<p>Then click on <code>File Manager &gt; floppydisk2</code>. Choose <code>extras</code> and then choose the <code>80NCRGRF.IMD</code> file from the list and choose <code>Read-write</code>.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/16/DEMO-CPM-MAME-dmv-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/16/responsive/DEMO-CPM-MAME-dmv-1-md.png 768w"  alt="Insert the demo disk" width="1025" height="752"></figure>
-<p>Then click on <code>Return to Previous menu &gt; Return to the machine</code>. Press the CAPS LOCK key once again to turn off UI control. Now switch to B drive using the following command:</p>
-<pre>b:</pre>
-<p>And then, start the demo using the following command:</p>
-<pre>demo5</pre>
-<p>Here are some screenshots:</p>
-<div class="gallery-wrapper gallery-wrapper--wide"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
-<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1-thumbnail.png" alt="DMV Demo Screeshot 1" width="765" height="529"></a></figure>
-<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2-thumbnail.png" alt="DMV Demo Screeshot 2" width="765" height="529"></a></figure>
-<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3-thumbnail.png" alt="DMV Demo Screeshot 3" width="765" height="529"></a></figure>
-<figure class="gallery__item"><a href="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4.png" data-size="765x529"><img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4-thumbnail.png" alt="DMV Demo Screeshot 4" width="765" height="529"></a></figure>
-</div></div>
-<p>You can exit the demo by pressing <code>Ctrl</code> + <code>C</code>. You can now close the emulator.</p>
-<p>That's it. We used the demo included with NCR Decision Mate V. This software came with no Manuals and is not famous enough to have any related sites.</p>
-<h2>Credits</h2>
-<p>The <a href="https://mamedev.org/" target="_blank" rel="noopener noreferrer">MAME emulator</a> is an open source project hosted on <a href="https://github.com/mamedev/mame" target="_blank" rel="noopener noreferrer">github</a> developed by MAMEDev and contributors.</p>
             ]]>
         </content>
     </entry>
