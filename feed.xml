@@ -3,7 +3,7 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-06-01T14:51:01+05:30</updated>
+    <updated>2022-06-01T15:39:06+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="MS DOS"/>
             <category term="DOS"/>
 
-        <updated>2022-06-01T14:51:01+05:30</updated>
+        <updated>2022-06-01T15:39:06+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/27/MSDOS1.25-VirtualBox-7-2.webp" alt="List of Files in MS DOS 1.25 on VirtualBox" />
@@ -101,7 +101,7 @@
     </figure>
 
   <p>
-    Back on the VirtualBox window, click on <code>Empty</code> that is written in front of <code>Floppy Device 0:</code>&nbsp;. Now click on <code>Choose a disk file ...</code>&nbsp; and choose the CDPDOS.IMG image (You may need to choose <code>All Files</code> from the bottom right corner of your file chooser to see the disk image file).
+    Back on the VirtualBox window, click on <code>Empty</code> that is written in front of <code>Floppy Device 0:</code>&nbsp;(See the above image). Now click on <code>Choose a disk file ...</code>&nbsp; and choose the CDPDOS.IMG image (You may need to choose <code>All Files</code> from the bottom right corner of your file chooser to see the disk image file).
   </p>
 
   <p>
@@ -136,6 +136,28 @@
   </p>
 
   <p>
+    Since MS DOS 1.25 is used from floppy disks, it is better to add another floppy drive as it is the required setup for many software and more convenient with others. Click on Settings and choose storage from the left sidebar. Now click on the small floppy icon next to <code>Controller: Floppy</code>&nbsp; to add a floppy drive (see the below image):
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/27/MSDOS1.25-VirtualBox-9.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-9-xs.webp 300w ,https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-9-sm.webp 480w ,https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-9-md.webp 768w"  height="600" width="798" alt="Adding a floppy drive" />
+      
+    </figure>
+
+  <p>
+    Click on <code>Leave Empty</code> when the following window opens:
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img decoding="async" loading="lazy" src="https://virtualhub.eu.org/media/posts/27/MSDOS1.25-VirtualBox-10.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-10-xs.webp 300w ,https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-10-sm.webp 480w ,https://virtualhub.eu.org/media/posts/27/responsive/MSDOS1.25-VirtualBox-10-md.webp 768w"  height="311" width="475" alt="Click on Leave Empty" />
+      
+    </figure>
+
+  <p>
+    Now click on <code>OK</code> to close the settings window. Now we can add another floppy if we want and it will show up as <code>B:</code>.
+  </p>
+
+  <p>
     That's it. We used MS DOS 1.25 in VirtualBox. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I will post with the IBM PC DOS 1.10 tutorial because they are more detailed and MS DOS and PC DOS are almost same at this stage.
   </p>
 
@@ -152,7 +174,7 @@
     </h2>
 
   <ul>
-    <li><a href="https://winworldpc.com/product/ms-dos/1x" target="_blank">WinWorld page</a></li><li><a href="https://en.wikipedia.org/wiki/MS-DOS" class="" data-link-popup-id="1654074475808">Wikipedia</a></li><li><a href="https://www.pcjs.org/software/pcx86/sys/dos/compaq/1.12/" target="_blank">PCjs page - Run MS DOS 1.25 in you web browser</a></li><li><a href="https://betawiki.net/wiki/MS-DOS_1.25" target="_blank">BetaWiki page</a></li><li><a href="https://github.com/Microsoft/MS-DOS" target="_blank">MS DOS 1.25 Source Code (Open Source) - Microsoft GitHub</a></li><li>Some related YouTube videos:</li><ul><li><a href="https://youtu.be/WtoDbu6dOC4" target="_blank">https://youtu.be/WtoDbu6dOC4</a></li><li><a href="https://youtu.be/pKcuHmpTMk0">https://youtu.be/pKcuHmpTMk0</a></li></ul>
+    <li><a href="https://en.wikipedia.org/wiki/MS-DOS" target="_blank" class="">WinWorld page</a></li><li><a href="https://youtu.be/pKcuHmpTMk0" class="" target="_blank">Wikipedia</a></li><li><a href="https://youtu.be/WtoDbu6dOC4" target="_blank" class="">PCjs page - Run MS DOS 1.25 in you web browser</a></li><li><a href="https://betawiki.net/wiki/MS-DOS_1.25" target="_blank" class="" data-link-popup-id="1654074475808">BetaWiki page</a></li><li><a href="https://github.com/Microsoft/MS-DOS" target="_blank" class="" data-link-popup-id="1654074475808">MS DOS 1.25 Source Code (Open Source) - Microsoft GitHub</a></li><li>Some related YouTube videos:</li><ul><li><a href="https://youtu.be/WtoDbu6dOC4" target="_blank" class="" data-link-popup-id="1654074475808">https://youtu.be/WtoDbu6dOC4</a></li><li><a href="https://youtu.be/pKcuHmpTMk0" class="" data-link-popup-id="1654074475808">https://youtu.be/pKcuHmpTMk0</a></li></ul>
   </ul>
 
     <h2 id="credits">
@@ -160,7 +182,7 @@
     </h2>
 
   <ul>
-    <li>TheVirtualBox hypervisor is an <a href="https://www.virtualbox.org/svn/vbox/trunk/" target="_blank">open source project</a>. Visit <a href="https://www.virtualbox.org/" target="_blank">its website</a> to know more.</li><li>The disk image used above was taken from <a href="https://winworldpc.com/home" target="_blank" class="" data-link-popup-id="1654074603188">WinWorld</a>.</li>
+    <li>The VirtualBox hypervisor is an <a href="https://www.virtualbox.org/svn/vbox/trunk/" target="_blank">open source project</a>. Visit <a href="https://www.virtualbox.org/" target="_blank">its website</a> to know more.</li><li>The disk image used above was taken from <a href="https://winworldpc.com/home" target="_blank" class="" data-link-popup-id="1654074603188">WinWorld</a>.</li>
   </ul>
             ]]>
         </content>
