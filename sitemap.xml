@@ -14,7 +14,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/downloads/</loc>
-<lastmod>2022-05-26T09:48:27+05:30</lastmod>
+<lastmod>2022-06-02T12:55:01+05:30</lastmod>
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-experience-86-dos/</loc>
@@ -334,6 +334,54 @@
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3.png</image:loc>
 <image:title><![CDATA[List of files on MS DOS 1.25 on MAME]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-pcem/</loc>
+<lastmod>2022-06-02T13:45:40+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10-2.webp</image:loc>
+<image:title><![CDATA[List of files in MS DOS 1.25 on PCem]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-1.webp</image:loc>
+<image:title><![CDATA[PCem new config dialog box]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-2.webp</image:loc>
+<image:title><![CDATA[Pcem Settings window]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-3.webp</image:loc>
+<image:title><![CDATA[PCem settings- video devices]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-4.webp</image:loc>
+<image:title><![CDATA[PCem settings - Storage devices]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-5.webp</image:loc>
+<image:title><![CDATA[PCem starting]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-6.webp</image:loc>
+<image:title><![CDATA[PCem started]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-7.webp</image:loc>
+<image:title><![CDATA[PCem change drive]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-8.webp</image:loc>
+<image:title><![CDATA[Ctrl + Alt + Del]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-9.webp</image:loc>
+<image:title><![CDATA[MS DOS 1.25 on PCem]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10.webp</image:loc>
+<image:title><![CDATA[List of files in MS DOS 1.25 on PCem]]></image:title>
 </image:image>
 </url>
 <url>

@@ -3,12 +3,97 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-06-01T15:39:06+05:30</updated>
+    <updated>2022-06-02T13:45:40+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
     <id>https://virtualhub.eu.org</id>
 
+    <entry>
+        <title>How to install MS DOS 1.25 on PCem?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-pcem/"/>
+        <id>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-pcem/</id>
+            <category term="PCem"/>
+            <category term="MS DOS"/>
+            <category term="DOS"/>
+
+        <updated>2022-06-02T13:45:40+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10-2.webp" alt="List of files in MS DOS 1.25 on PCem" />
+                    In the last tutorial, we saw how to install MS DOS 1.25 on VirtualBox. In this tutorial, we are going to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10-2.webp" alt="List of files in MS DOS 1.25 on PCem" />
+                <p>In the last tutorial, we saw <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-mame/" target="_blank" data-link-popup-id="1654071738927" rel="noopener">how to install MS DOS 1.25 on VirtualBox</a><a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-virtualbox/" target="_blank" rel="noopener noreferrer"></a>. In this tutorial, we are going to install MS DOS 1.25 on PCem. If you want an introduction to MS DOS 1.25, I suggest you to read the first few paragraphs of our post <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on 86Box</a>.</p>
+<p>You need to download the following file to follow this tutorial:</p>
+<ul>
+<li><a href="https://winworldpc.com/download/c38ac396-c2a7-6f3c-e280-9e11c3a4c2a8" target="_blank" rel="noopener">MS DOS 1.25 CDP OEM archive</a></li>
+</ul>
+<p>MS DOS 1.25 was not sold as a retailed package. It was only available to OEMs. In this tutorial we use the Columbia Data Products OEM that works well on IBM PC clones.</p>
+<h2 id="creating-the-virtual-machine">Creating the Virtual Machine</h2>
+<p>If you have not already installed PCem, do that now. You can <a href="https://legacyinstaller.pcriot.com/vm-software/pcem" target="_blank" rel="noopener noreferrer">follow our tutorial on how to do so on Windows</a>. On Linux, you need to compile PCem from <a href="https://github.com/sarah-walker-pcem/pcem" target="_blank" rel="noopener noreferrer">source</a>. On Arch Linux, you can use the AUR: <a href="https://aur.archlinux.org/packages/pcem" target="_blank" rel="noopener noreferrer">pcem</a> or <a href="https://aur.archlinux.org/packages/pcem-git" target="_blank" rel="noopener noreferrer">pcem-git</a>.</p>
+<p class="msg msg--success"><strong><span style="text-decoration: underline;">Note<br></span></strong>This tutorial uses the pcem-git AUR package. Since it is he latest development build, it contains some changes from the last released version - 17. Mainly, the settings window was redesigned. The functionality of the settings window remains same, just the categories are on the left side now instead of on the top.</p>
+<p>Create a folder for storing the files for the VM.  Extract the MS DOS 1.25 archive you downloaded from above and open the extracted folder. Go to the images folder inside it and copy the file called CDPDOS.IMG to the VM folder.</p>
+<p>Now open PCem, and click on the New VM button. The new config dialog box will open:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-1.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-1-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-1-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-1-md.webp 768w"  alt="PCem new config dialog box" width="356" height="181"></figure>
+<p>Enter the name of the VM and click on <code>OK</code>. Now, the settings window will open:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-2.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-2-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-2-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-2-md.webp 768w"  alt="Pcem Settings window" width="807" height="475"></figure>
+<p>In the Motherboard section, change the following options:</p>
+<ul>
+<li>Machine to <code>[8088] IBM XT</code></li>
+<li>CPU to <code>8088/16</code></li>
+<li>FPU to <code>8087</code></li>
+<li>Memory to <code>640 KB</code></li>
+</ul>
+<p>Now move to the video devices section.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-3.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-3-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-3-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-3-md.webp 768w"  alt="PCem settings- video devices" width="807" height="475"></figure>
+<p>In Device, choose <code>VGA</code>. Now move to the Storage Devices section.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-4.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-4-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-4-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-4-md.webp 768w"  alt="PCem settings - Storage devices" width="807" height="475"></figure>
+<p>Chande FDD1 and FDD2 to <code>5.25" 360k</code>. Now click on <code>OK</code> to close the settings dialog. Star the Virtual Machine.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-5.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-5-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-5-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-5-md.webp 768w"  alt="PCem starting" width="722" height="432"></figure>
+<p>Wait a few seconds while the VM starts. When it has started, you will see the following screen:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-6.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-6-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-6-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-6-md.webp 768w"  alt="PCem started" width="722" height="432"></figure>
+<p>Now depending on your host Operating System, you might see a menu bar on top of the window or a pop up menu when you right click on the window. Since I am using Linux, I need to right click on the window to open the pop up menu. On Windows, you can use the top menu bar.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-7.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-7-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-7-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-7-md.webp 768w"  alt="PCem change drive" width="778" height="428"></figure>
+<p>Choose <code>Disc</code> &gt; <code>Change drive A:...</code>. Now open the CDPDOS.IMG file. Now right click again and choose <code>System</code> &gt; <code>Ctrl + Alt + Del</code>.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-8.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-8-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-8-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-8-md.webp 768w"  alt="Ctrl + Alt + Del" width="726" height="435"></figure>
+<p>The VM will restart. MS DOS 1.25 will boot:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-9.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-9-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-9-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-9-md.webp 768w"  alt="MS DOS 1.25 on PCem" width="722" height="432"></figure>
+<p>When asked for Date and time, just press enter. Do not enter anything. MS DOS 1.25 has problems with dates later than year 2000, so it is best to leave the default date set. You can enter the <code>DIR</code> command to see the list of files:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-10-xs.webp 300w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-10-sm.webp 480w ,https://virtualhub.eu.org/media/posts/28/responsive/MSDOS1.25-PCem-10-md.webp 768w"  alt="List of files in MS DOS 1.25 on PCem" width="722" height="432"></figure>
+<p>That's it. We used MS DOS 1.25 in PCem. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I will post with the IBM PC DOS 1.10 tutorial because they are more detailed and MS DOS and PC DOS are almost same at this stage.</p>
+<h2 id="manuals">Manuals</h2>
+<ul>
+<li><a href="https://winworldpc.com/download/c387c5b8-c38c-c38e-3ce2-809e11c3a4ef" target="_blank" rel="noopener">MS DOS 1.25 Manual</a></li>
+</ul>
+<h2 id="related-pages">Related Pages</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/MS-DOS" target="_blank" rel="noopener">WinWorld page</a></li>
+<li><a href="https://youtu.be/pKcuHmpTMk0" target="_blank" rel="noopener">Wikipedia</a></li>
+<li><a href="https://youtu.be/WtoDbu6dOC4" target="_blank" rel="noopener">PCjs page - Run MS DOS 1.25 in you web browser</a></li>
+<li><a href="https://betawiki.net/wiki/MS-DOS_1.25" target="_blank" data-link-popup-id="1654074475808" rel="noopener">BetaWiki page</a></li>
+<li><a href="https://github.com/Microsoft/MS-DOS" target="_blank" data-link-popup-id="1654074475808" rel="noopener">MS DOS 1.25 Source Code (Open Source) - Microsoft GitHub</a></li>
+<li>Some related YouTube videos:
+<ul>
+<li><a href="https://youtu.be/WtoDbu6dOC4" target="_blank" data-link-popup-id="1654074475808" rel="noopener">https://youtu.be/WtoDbu6dOC4</a></li>
+<li><a href="https://youtu.be/pKcuHmpTMk0" data-link-popup-id="1654074475808">https://youtu.be/pKcuHmpTMk0</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>The <a href="https://pcem-emulator.co.uk/" target="_blank" rel="noopener noreferrer">PCem emulator</a> is an open source project hosted on <a href="https://github.com/sarah-walker-pcem/pcem/" target="_blank" rel="noopener noreferrer">Github</a>. Visit its <a href="https://pcem-emulator.co.uk/phpBB3/" target="_blank" rel="noopener noreferrer">forums</a>.</li>
+<li>The disk image used above was taken from <a href="https://winworldpc.com/home" target="_blank" data-link-popup-id="1654074603188" rel="noopener">WinWorld</a>.</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to install MS DOS 1.25 on VirtualBox?</title>
         <author>
@@ -769,56 +854,6 @@
 <li><a href="https://web.archive.org/web/20220324101727/http://www.cpm.z80.de/manuals/c68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k C Programming Guide</a></li>
 </ul>
 <p class="msg msg--success"><span style="text-decoration: underline;"><strong>Note</strong></span><br>These manuals are in PostScript format. You first need to unzip them then use a PostScript reader to read them.</p>
-<h2>Related Pages</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/CP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
-<li><a href="http://www.cpm.z80.de/" target="_blank" rel="noopener noreferrer">The Unofficial CP/M Web site</a></li>
-<li><a href="http://z80.de/ehome.htm" target="_blank" rel="noopener noreferrer">Gaby's Homepage for CP/M and Computer History</a></li>
-<li><a href="http://www.retroarchive.org/cpm" target="_blank" rel="noopener noreferrer">Commercial CP/M Software (Retro Archive)</a></li>
-<li><a href="http://z80.de/ecpmlink.htm" target="_blank" rel="noopener noreferrer">A lots of other links</a></li>
-</ul>
-<h2>Credits</h2>
-<p>The emulator which is linked above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to experience CP/M-80 3.0?</title>
-        <author>
-            <name>Legacy Installer</name>
-        </author>
-        <link href="https://virtualhub.eu.org/how-to-experience-cpm-80-30/"/>
-        <id>https://virtualhub.eu.org/how-to-experience-cpm-80-30/</id>
-            <category term="Other Emulator"/>
-            <category term="CP/M-80"/>
-            <category term="CP/M"/>
-
-        <updated>2022-04-07T19:08:41+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png" alt="List of Files in CP/M-80 3.0" />
-                    In the last post, we saw how to use WordStar 4.0 on YAZE. In this tutorial we are going to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png" alt="List of Files in CP/M-80 3.0" />
-                <p>In the last post, we saw <a href="https://virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/" target="_blank" rel="noopener noreferrer">how to use WordStar 4.0 on YAZE</a>. In this tutorial we are going to experience CP/M-80 3.0. You can download the emulator package from here:</p>
-<ul>
-<li><a href="https://archive.org/download/cpm-80-v3.0/CPM80v3.0onlinux.tar.xz">CP/M-80 3.0 for Linux</a></li>
-<li><a href="https://archive.org/download/cpm-80-v3.0/CPM80v3.0onwindows.zip">CP/M-80 3.0 for Windows</a></li>
-</ul>
-<h2>Using CP/M-80 3.0</h2>
-<p>It is very easy to start using CP/M-80 3.0. On Linux, extract the above archive and right click on the cpm3.sh file and choose "Run as a Program" or run the shell file the way you run any other shell file. On Windows, extract the above archive and double click the Runme.bat file. The Virtual Machine will start.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-1-md.png 768w"  alt="CP/M-80 3.0 on Altair Z80 Emulator" width="834" height="630"></figure>You can enter the DIR command to see a list of files.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/18/responsive/CPM-80-3.0-AltairZ80-2-md.png 768w"  alt="List of Files in CP/M-80 3.0" width="834" height="630"></figure>That's it! We used CP/M-80 3.0, an operating system launched in 1984 after 38 years (at the time of writing this tutorial).</p>
-<h2>Manuals</h2>
-<ul>
-<li><a href="https://web.archive.org/web/20220324101639/http://www.cpm.z80.de/manuals/cpm3-usr.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 User's Guide</a></li>
-<li><a href="https://web.archive.org/web/20220324101647/http://www.cpm.z80.de/manuals/cpm3-sys.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 System Guide</a></li>
-<li><a href="https://web.archive.org/web/20220324101545/http://www.cpm.z80.de/manuals/cpm3-pgr.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 Programmer's Guide</a></li>
-<li><a href="https://web.archive.org/web/20220324101549/http://www.cpm.z80.de/manuals/cpm3-cmd.pdf" target="_blank" rel="noopener noreferrer">CP/M-80 3.0 Command Summary</a></li>
-</ul>
 <h2>Related Pages</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/CP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
