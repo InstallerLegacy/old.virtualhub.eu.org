@@ -3,12 +3,100 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-06-02T13:45:40+05:30</updated>
+    <updated>2022-06-03T17:53:57+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
     <id>https://virtualhub.eu.org</id>
 
+    <entry>
+        <title>How to install PC DOS 1.10 on 86Box?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/"/>
+        <id>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/</id>
+            <category term="PC DOS"/>
+            <category term="DOS"/>
+            <category term="86Box"/>
+
+        <updated>2022-06-03T17:53:57+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6-2.webp" alt="PC DOS 1.10 on 86Box" />
+                    In the last few tutorials, we installed MS DOS 1.25 on various emulators and hypervisors. Now we will continue with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6-2.webp" alt="PC DOS 1.10 on 86Box" />
+                <p>In the last few tutorials, we installed MS DOS 1.25 on various emulators and hypervisors. Now we will continue with IBM PC DOS. IBM PC-DOS was an IBM branded version of MS DOS licensed from Microsoft for use on the IBM PC system. Versions of PC DOS paralleled that of MS DOS up until version 6.1, where PC DOS was independently maintained by IBM up until 7.1, the last version. Although not the only OS available for the IBM PC when it came out, it quickly became popular due to its low cost in comparison to the others.</p>
+<p>The first version of PC DOS was released in August 1981 with the IBM PC. IBM PC DOS 1.0 was a port of 86-DOS purchased by Microsoft in 1981 for use on the IBM PC. This version of DOS resembles that of CP/M at the time. 1.0 only supports single sided 8-sector 160k 5.25 inch floppy disks. 1.1 adds support for double sided 320k disks. Directory support did not exist with this version of DOS. PC DOS 1.x was a floppy-only version of DOS. It cannot be installed to a hard drive.</p>
+<p>You need to download the following file to follow this tutorial:</p>
+<ul>
+<li><a href="https://winworldpc.com/download/c3acc3b4-c3b9-15c2-adc3-9611c3a5c28f" target="_blank" rel="noopener noreferrer">IBM PC DOS 1.10 archive</a></li>
+</ul>
+<h2>Creating the Virtual Machine</h2>
+<p>If you have not installed 86Box yet, see our tutorial on <a href="https://legacyinstaller.pcriot.com/vm-software/86box" target="_blank" rel="noopener noreferrer">how to do so on windows</a> and <a href="https://legacyinstaller.pcriot.com/vm-software/how-to-install-86box-on-linux-along-with-a-manager" target="_blank" rel="noopener noreferrer">on Linux</a>.</p>
+<p>Open the 86Box Manager. Click on Add and enter the details for your VM. Tick the "Configure this VM now" checkbox. Then click on Add.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-1.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-1-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-1-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-1-md.webp 768w"  alt="86Box New VM wizard" width="600" height="298"></figure>
+<p><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">The machine settings window will open. In Machine tab, leave the Machine type to </span><code style="font-weight: var(--font-weight-normal);">8088</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">. In the Machine Dropbox, choose </span><code style="font-weight: var(--font-weight-normal);">[8088] IBM XT (1986)</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">. Change the FPU to </span><code style="font-weight: var(--font-weight-normal);">8087</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">. Change the speed to </span><code style="font-weight: var(--font-weight-normal);">16</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> and memory to </span><code style="font-weight: var(--font-weight-normal);">640 KB</code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">.</span></p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-2.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-2-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-2-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-2-md.webp 768w"  alt="Machine Settings 86Box " width="1004" height="719"></figure>
+<p>Move to Display tab. Choose <code>[ISA] VGA</code> from the Video list.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-3.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-md.webp 768w"  alt="86Box Video settings" width="1004" height="719"></figure>
+<p>Move to Input devices. Choose <code>Microsoft Serial Mouse</code> from the mouse drop-down list.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-4.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-md.webp 768w"  alt="86Box Input devices settings" width="1004" height="719"></figure>
+<p>Click on <code>OK</code> to close the settings window. Extract the PC DOS 1.10 archive and open the extracted folder. Go to the images folder inside it and open the Raw folder. Copy the file called <code>DISK01.IMA</code> to the VM folder.</p>
+<p>Start the Virtual Machine. Click on <code>Media</code> &gt; <code>Floppy 1 (5.25" 360k): (empty)</code> &gt; <code>Existing image...</code> and choose the disk image you just copied.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-5.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-md.webp 768w"  alt="Change floppy drive" width="723" height="519"></figure>
+<p>Click on <code>Action</code> &gt; <code>Ctrl + Alt + Del</code> to restart the VM. PC DOS 1.10 should load.</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-6-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-6-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-6-md.webp 768w"  alt="PC DOS 1.10 on 86Box" width="722" height="518"></figure>
+<p>When asked for Date and time, just press enter. Do not enter anything. PC DOS 1.10 has problems with dates later than year 2000, so it is best to leave the default date set. You can enter the <code>DIR</code> command to see the list of files:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-7.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-7-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-7-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-7-md.webp 768w"  alt="List of files on PC DOS 1.10 on 86Box" width="722" height="518"></figure>
+<p>That's it. We used PC DOS 1.10. You can now close the VM window. The next time you start it, you do not need to insert the disk file again. PC DOS 1.10 will start without any problem. Read the manual linked below to learn more about PC DOS 1.10. You can also read the MS DOS 1.25 manual which I posted in <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/" target="_blank" rel="noopener noreferrer">its tutorial</a>, since they both are almost same.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20220408191257/http://www.bitsavers.org/pdf/ibm/pc/dos/IBM_DOS_1.1_May82.pdf" target="_blank" rel="noopener noreferrer">PC DOS 1.10 Manual</a></li>
+<li><a href="https://web.archive.org/web/20200803043016/http://www.bitsavers.org/pdf/ibm/pc/languages/BASIC_1.1_May82.pdf" target="_blank" rel="noopener noreferrer">BASIC Manual</a></li>
+</ul>
+<p>You may also want to read the IBM PC manuals. IBM PC DOS 1.10 was meant to be used on the IBM PC and the above manual refers to the IBM PC manuals many times. The following are the IBM PC manuals:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20220525044729/http://www.minuszerodegrees.net/manuals/IBM_5150_Guide_to_Operations_6322510_APR84.pdf" target="_blank" rel="noopener noreferrer">Guide to Operations</a></li>
+<li><a href="https://web.archive.org/web/20220601195619/http://www.minuszerodegrees.net/manuals/IBM_5150_Technical_Reference_6322507_APR84.pdf" target="_blank" rel="noopener noreferrer">Technical Reference</a></li>
+<li><a href="https://web.archive.org/web/20220522180745/http://www.minuszerodegrees.net/manuals/IBM_5150_Hardware_Maintenance_and_Service_6025072_AUG81.pdf" target="_blank" rel="noopener noreferrer">Hardware Maintenance and Service</a></li>
+</ul>
+<p>You can also read the IBM PC XT manuals:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20211226042605/http://www.minuszerodegrees.net/manuals/IBM_5160_Guide_to_Operations_6322511_APR84.pdf" target="_blank" rel="noopener noreferrer">Guide to Operations</a></li>
+<li><a href="https://web.archive.org/web/20220522162518/http://www.minuszerodegrees.net/manuals/IBM_5160_Technical_Reference_APR83.pdf" target="_blank" rel="noopener noreferrer">Technical Reference</a></li>
+</ul>
+<p>You can read a lot more manuals related to IBM PCs and many other software and hardware at <a href="http://www.minuszerodegrees.net/" target="_blank" rel="noopener noreferrer">www.minuszerodegrees.net</a> and <a href="http://www.bitsavers.org/pdf/" target="_blank" rel="noopener noreferrer">www.bitsavers.org/pdf/</a>.</p>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/pc-dos/1x" target="_blank" rel="noopener noreferrer">WinWorld page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IBM_PC_DOS#PC_DOS_1.x" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.pcjs.org/software/pcx86/sys/dos/ibm/1.10/" target="_blank" rel="noopener noreferrer">PCjs page - Run PC DOS 1.10 in you web browser</a></li>
+<li><a href="https://betawiki.net/wiki/IBM_PC-DOS_1.00" target="_blank" rel="noopener noreferrer">BetaWiki page</a></li>
+<li><a href="https://www.os2museum.com/wp/dos/dos-1-0-and-1-1/" target="_blank" rel="noopener noreferrer">OS/2 Museum Page</a></li>
+<li><a href="https://www.ibm.com/ibm/history/exhibits/pc25/pc25_intro.html" target="_blank" rel="noopener noreferrer">The IBM PC's debut - IBM Archive</a></li>
+<li>Some related YouTube videos:
+<ul>
+<li><a href="https://youtu.be/ZyYPmD5zjFI">https://youtu.be/ZyYPmD5zjFI</a></li>
+<li><a href="https://youtu.be/-aC_9Q5AW3U">https://youtu.be/-aC_9Q5AW3U</a></li>
+<li><a href="https://youtu.be/0PceJO3CAGI">https://youtu.be/0PceJO3CAGI</a></li>
+<li><a href="https://youtu.be/tWKAxqyjA4I">https://youtu.be/tWKAxqyjA4I</a></li>
+<li><a href="https://youtu.be/yXPpLLYMRqI">https://youtu.be/yXPpLLYMRqI</a></li>
+</ul>
+</li>
+</ul>
+<h2>Credits</h2>
+<ul>
+<li>The 86Box emulator is an open source project hosted on <a href="https://github.com/86Box" target="_blank" rel="noopener noreferrer">GitHub</a>. Visit <a href="https://86box.net/" target="_blank" rel="noopener noreferrer">its website</a> to know more.</li>
+<li>The disk image used above was taken from <a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer">WinWorld</a>.</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to install MS DOS 1.25 on PCem?</title>
         <author>
@@ -617,7 +705,7 @@
             <category term="DOS"/>
             <category term="86Box"/>
 
-        <updated>2022-05-17T17:57:23+05:30</updated>
+        <updated>2022-06-03T17:48:41+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png" alt="MS DOS 1.25 on 86Box" />
@@ -639,7 +727,7 @@
 </ul>
 <p>MS DOS 1.25 was not sold as a retailed package. It was only available to OEMs. In this tutorial we use the Columbia Data Products OEM that works well on IBM PC clones.</p>
 <h2>Creating the Virtual Machine</h2>
-<p>If you have not installed 86Box yet, see our tutorial on </p>
+<p>If you have not installed 86Box yet, see our tutorial on <a href="https://legacyinstaller.pcriot.com/vm-software/86box" target="_blank" rel="noopener noreferrer">how to do so on windows</a> and <a href="https://legacyinstaller.pcriot.com/vm-software/how-to-install-86box-on-linux-along-with-a-manager" target="_blank" rel="noopener noreferrer">on Linux</a>.</p>
 <p>Open the 86Box Manager. Click on Add and enter the details for your VM. Tick the "Configure this VM now" checkbox. Then click on Add.</p>
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-1-md.png 768w"  alt="86Box new VM wizard" width="600" height="304"></figure>
 <p>Leave the Machine type to <code>8088</code>. In the Machine Dropbox, choose <code>[8088] OpenXT</code>. Change the speed to <code>16</code> and memory to <code>640 KB</code>. Click on OK.</p>
@@ -651,7 +739,7 @@
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-4.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-4-xs.png 300w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-4-sm.png 480w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-4-md.png 768w"  alt="MS DOS 1.25 on 86Box" width="640" height="514"></figure>
 <p>You can enter the <code>DIR</code> command to see the list of files:</p>
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-5-xs.png 300w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-5-sm.png 480w ,https://virtualhub.eu.org/media/posts/22/responsive/MS-DOS-1.25-86Box-5-md.png 768w"  alt="List of files in MS DOS 1.25" width="640" height="514"></figure>
-<p>That's it. We used MS DOS 1.25. You can now close the VM window. The next time you start it, you do not need to insert the disk file again. MS DOS 1.25 will start without any problem. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I will post with the IBM PC DOS 1.10 tutorial because they are more detailed and MS DOS and PC DOS are almost same at this stage.</p>
+<p>That's it. We used MS DOS 1.25. You can now close the VM window. The next time you start it, you do not need to insert the disk file again. MS DOS 1.25 will start without any problem. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I posted with the<a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/" target="_blank" rel="noopener noreferrer"> IBM PC DOS 1.10 tutorial</a> because they are more detailed and MS DOS and PC DOS are almost same at this stage.</p>
 <h2>Manuals</h2>
 <ul>
 <li><a href="https://winworldpc.com/download/c387c5b8-c38c-c38e-3ce2-809e11c3a4ef" target="_blank" rel="noopener noreferrer">MS DOS 1.25 Manual</a></li>
@@ -812,58 +900,6 @@
 <h2>Credits</h2>
 <p>The simulator used above are two separate projects. The Musashi Simulator is hosted on <a href="https://github.com/kstenerud/Musashi" target="_blank" rel="noopener noreferrer">github</a> and is developed by <a href="https://github.com/kstenerud" target="_blank" rel="noopener noreferrer">Karl Stenerud</a>. The CPMSIM is also and opensource project. You can visit <a href="http://davesrocketworks.com/electronics/cpm68/simulator.html" target="_blank" rel="noopener noreferrer">its website</a> to know more.</p>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to experience CP/M-68k?</title>
-        <author>
-            <name>Legacy Installer</name>
-        </author>
-        <link href="https://virtualhub.eu.org/how-to-experience-cpm-68k/"/>
-        <id>https://virtualhub.eu.org/how-to-experience-cpm-68k/</id>
-            <category term="Other Emulator"/>
-            <category term="CP/M-68k"/>
-            <category term="CP/M"/>
-
-        <updated>2022-04-09T19:34:00+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png" alt="List of Files in CP/M-68k" />
-                    In the last post, we saw how to experience CP/M-80 3.0. In this tutorial we are going to experience CP/M-68k.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png" alt="List of Files in CP/M-68k" />
-                <p>In the last post, we saw <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-30/" target="_blank" rel="noopener noreferrer">how to experience CP/M-80 3.0</a>. In this tutorial we are going to experience CP/M-68k. There are two ways to do so. In this tutorial we are going to use the Altair Z80 emulator which we used for the 86-DOS and some other CP/M versions. You can download the emulator package from here:</p>
-<ul>
-<li><a href="https://archive.org/download/cpm-68k/CPM68konlinux.tar.xz">CP/M-68k for Linux</a></li>
-<li><a href="https://archive.org/download/cpm-68k/CPM68konwindows.zip">CP/M-68k for Windows</a></li>
-</ul>
-<p class="msg msg--success"><span style="text-decoration: underline;"><strong>Note</strong></span><br>This Operating System requires the beta version of Altair Z80 emulator and will not work with the stable version which are used in the previous tutorials. The archives above contain the required beta version of the emulator.</p>
-<h2>Using CP/M-68k</h2>
-<p>It is very easy to start using CP/M-68k. On Linux, extract the above archive and right click on the cpm-68k.sh file and choose "Run as a Program" or run the shell file the way you run any other shell file. On Windows, extract the above archive and double click the Runme.bat file. The Virtual Machine will start.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-1-md.png 768w"  alt="CP/M-68k on Altair Z80 emulator" width="834" height="630"></figure>Note that since we are using the beta version of emulator, it will throw some errors at startup but it does not cause any problem and you do not need to do anything. You can enter the DIR command to see a list of files.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/19/responsive/CPM-68k-Altair-Z80-2-md.png 768w"  alt="List of Files in CP/M-68k" width="834" height="630"></figure>That's it! We used CP/M-68k.</p>
-<h2>Manuals</h2>
-<ul>
-<li><a href="https://web.archive.org/web/20220324101705/http://www.cpm.z80.de/manuals/ug68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k User's Guide</a></li>
-<li><a href="https://web.archive.org/web/20191020123945/http://www.cpm.z80.de/manuals/sys68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k System Guide</a></li>
-<li><a href="https://web.archive.org/web/20191020123944/http://www.cpm.z80.de/manuals/pg68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k Programmer's Guide</a></li>
-<li><a href="https://web.archive.org/web/20220324101727/http://www.cpm.z80.de/manuals/c68k-m.zip" target="_blank" rel="noopener noreferrer">CP/M-68k C Programming Guide</a></li>
-</ul>
-<p class="msg msg--success"><span style="text-decoration: underline;"><strong>Note</strong></span><br>These manuals are in PostScript format. You first need to unzip them then use a PostScript reader to read them.</p>
-<h2>Related Pages</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/CP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
-<li><a href="http://www.cpm.z80.de/" target="_blank" rel="noopener noreferrer">The Unofficial CP/M Web site</a></li>
-<li><a href="http://z80.de/ehome.htm" target="_blank" rel="noopener noreferrer">Gaby's Homepage for CP/M and Computer History</a></li>
-<li><a href="http://www.retroarchive.org/cpm" target="_blank" rel="noopener noreferrer">Commercial CP/M Software (Retro Archive)</a></li>
-<li><a href="http://z80.de/ecpmlink.htm" target="_blank" rel="noopener noreferrer">A lots of other links</a></li>
-</ul>
-<h2>Credits</h2>
-<p>The emulator which is linked above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
             ]]>
         </content>
     </entry>
