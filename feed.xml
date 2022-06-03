@@ -3,7 +3,7 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-06-03T17:53:57+05:30</updated>
+    <updated>2022-06-03T18:27:51+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
@@ -20,7 +20,7 @@
             <category term="DOS"/>
             <category term="86Box"/>
 
-        <updated>2022-06-03T17:53:57+05:30</updated>
+        <updated>2022-06-03T18:27:51+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6-2.webp" alt="PC DOS 1.10 on 86Box" />
@@ -46,7 +46,7 @@
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-3.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-3-md.webp 768w"  alt="86Box Video settings" width="1004" height="719"></figure>
 <p>Move to Input devices. Choose <code>Microsoft Serial Mouse</code> from the mouse drop-down list.</p>
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-4.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-4-md.webp 768w"  alt="86Box Input devices settings" width="1004" height="719"></figure>
-<p>Click on <code>OK</code> to close the settings window. Extract the PC DOS 1.10 archive and open the extracted folder. Go to the images folder inside it and open the Raw folder. Copy the file called <code>DISK01.IMA</code> to the VM folder.</p>
+<p>Click on <code>OK</code> to close the settings window. Extract the PC DOS 1.10 archive and open the extracted folder. Go to the images folder inside it and open the Raw folder. Copy the file called <code>DISK01.IMA</code> to the VM folder. You may want to rename it to something like <code>PCDOS1.10.IMA</code> to avoid confusion later.</p>
 <p>Start the Virtual Machine. Click on <code>Media</code> &gt; <code>Floppy 1 (5.25" 360k): (empty)</code> &gt; <code>Existing image...</code> and choose the disk image you just copied.</p>
 <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-5.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-xs.webp 300w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-sm.webp 480w ,https://virtualhub.eu.org/media/posts/29/responsive/PCDOS1.10-86Box-5-md.webp 768w"  alt="Change floppy drive" width="723" height="519"></figure>
 <p>Click on <code>Action</code> &gt; <code>Ctrl + Alt + Del</code> to restart the VM. PC DOS 1.10 should load.</p>
