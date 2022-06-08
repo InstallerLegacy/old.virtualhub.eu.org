@@ -3,12 +3,106 @@
     <title>VirtualHub</title>
     <link href="https://virtualhub.eu.org/feed.xml" rel="self" />
     <link href="https://virtualhub.eu.org" />
-    <updated>2022-06-07T15:29:16+05:30</updated>
+    <updated>2022-06-08T17:43:14+05:30</updated>
     <author>
         <name>Legacy Installer</name>
     </author>
     <id>https://virtualhub.eu.org</id>
 
+    <entry>
+        <title>How to install PC DOS 1.10 on DOSBox-X?</title>
+        <author>
+            <name>Legacy Installer</name>
+        </author>
+        <link href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/"/>
+        <id>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/</id>
+            <category term="PC DOS"/>
+            <category term="DOSBox-X"/>
+            <category term="DOS"/>
+
+        <updated>2022-06-08T17:41:05+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-4.webp" alt="PC DOS 1.10 on DOSBox-X" />
+                    In the last tutorial, we saw how to install PC DOS 1.10 on DOSBox. In this tutorial, we are going&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-4.webp" alt="PC DOS 1.10 on DOSBox-X" />
+                <p>In the last tutorial, we saw <a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox/" target="_blank" rel="noopener noreferrer">how to install PC DOS 1.10 on DOSBox</a>. In this tutorial, we are going to install PC DOS 1.10 on DOSBox-X. If you want an introduction to PC DOS 1.10, I suggest you to read the first few paragraphs of our post <a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/" target="_blank" rel="noopener noreferrer">how to install PC DOS 1.10 on 86Box</a>. DOSBox-X already emulates DOS, but we can use it to install a different version of DOS also.</p>
+<p>You need to download the following file to follow this tutorial:</p>
+<ul>
+<li><a href="https://winworldpc.com/download/c3acc3b4-c3b9-15c2-adc3-9611c3a5c28f" target="_blank" rel="noopener noreferrer">IBM PC DOS 1.10 archive</a></li>
+</ul>
+<p class="msg msg--success"><strong><span style="text-decoration: underline;"><em>Note</em></span><br></strong>This tutorial uses DOSBox-X. It is not compatible with DOSBox, DOSBox-SVN or DOSBox-Staging. For DOSBox/DOSBox-SVN, see <a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox/" target="_blank" rel="noopener noreferrer">how to install PC DOS 1.10 on DOSBox</a>. For DOSBox-Staging, we will post a tutorial soon.</p>
+<h2>Creating the Virtual Machine</h2>
+<p>If you have not already installed DOSBox-X, you can install it from its <a href="https://dosbox-x.com/" target="_blank" rel="noopener noreferrer">homepage</a>. On Linux, you can also install it from your distribution's repositories or other third-party repository for your distribution.</p>
+<p>Create a folder to store the files related to you VM. Extract the PC DOS 1.10 archive and open the extracted folder. Go to the images folder inside it and open the Raw folder. Copy the file called <code>DISK01.IMA</code> to the VM folder. You may want to rename it to something like <code>PCDOS1.10.IMA</code> to avoid confusion later.</p>
+<p>Now copy the default DOSBox-X config file to this folder. You can see <a href="https://dosbox-x.com/wiki/Home#_dosbox_xs_configuration_file" target="_blank" rel="noopener noreferrer">this page</a> to know where the file exists on you system or you can download it from <a href="https://raw.githubusercontent.com/joncampbell123/dosbox-x/master/dosbox-x.reference.conf" target="_blank" rel="noopener noreferrer">here</a> ( You may need to right click and click on Save As to save the file). Rename it to something suitable such as <code>pcdos1.10.conf</code> and open it in your favourite text editor.</p>
+<p>Add the following line to the end of that file:</p>
+<pre>IMGMOUNT a PCDOS1.10.IMA<br>boot a:</pre>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-1.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-1-xs.webp 300w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-1-sm.webp 480w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-1-md.webp 768w"  alt="DOSBox-X config file for PC DOS 1.10" width="861" height="665"></figure>
+<p>Save and close the file. Open a terminal/command prompt and navigate to that folder. Now run DOSBox-X:</p>
+<pre>dosbox-x -conf pcdos1.10.conf</pre>
+<p>On Windows, you may need to add the path to DOSBox-X before this command if you have not added it to the PATH environment variable. So the command would likely become:</p>
+<pre>"C:\Program Files\DOSBox-X\dosbox-x.exe" -conf pcdos1.10.conf</pre>
+<p>The DOSBox-X program will open and boot PC DOS 1.10:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-2.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-2-xs.webp 300w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-2-sm.webp 480w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-2-md.webp 768w"  alt="PC DOS 1.10 on DOSBox-X" width="740" height="465"></figure>
+<p>When asked for Date and time, just press enter. Do not enter anything. PC DOS 1.10 has problems with dates later than year 2000, so it is best to leave the default date set. You can enter the <code>DIR</code> command to see the list of files:</p>
+<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-3.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-3-xs.webp 300w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-3-sm.webp 480w ,https://virtualhub.eu.org/media/posts/31/responsive/PCDOS1.10-DOSBox-X-3-md.webp 768w"  alt="List of files on PC DOS 1.10 on DOSBox-X" width="740" height="465"></figure>
+<p>You can now close that window. Now we will create a script to launch the VM. On linux create a file called PCDOS1.10.sh with the following lines:</p>
+<pre>#!/bin/bash<br>dosbox-x -conf pcdos1.10.conf</pre>
+<p>Then make the script executable by running the following command in terminal after navigating to that folder:</p>
+<pre>sudo chmod +x ./PCDOS1.10.sh</pre>
+<p>Then we can right click on that file and click on Run as Program to open the VM. Some DEs and distros may have other methods of running shell scripts.</p>
+<p>On Windows, create a file called PCDOS1.10.bat in that folder with the following contents:</p>
+<pre>"C:\Program Files\DOSBox-X\dosbox-x.exe" -conf pcdos1.10.conf</pre>
+<p>Then double click on that file to launch the VM.</p>
+<p>That's it. We used PC DOS 1.10 on DOSBox-X. You can now close the VM window. The next time you start it, you do not need to insert the disk file again. PC DOS 1.10 will start without any problem. Read the manual linked below to learn more about PC DOS 1.10. You can also read the MS DOS 1.25 manual which I posted in <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-x/" target="_blank" rel="noopener noreferrer">its tutorial</a>, since they both are almost same.</p>
+<h2>Manuals</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20220408191257/http://www.bitsavers.org/pdf/ibm/pc/dos/IBM_DOS_1.1_May82.pdf" target="_blank" rel="noopener noreferrer">PC DOS 1.10 Manual</a></li>
+<li><a href="https://web.archive.org/web/20200803043016/http://www.bitsavers.org/pdf/ibm/pc/languages/BASIC_1.1_May82.pdf" target="_blank" rel="noopener noreferrer">BASIC Manual</a></li>
+</ul>
+<p>You may also want to read the IBM PC manuals. IBM PC DOS 1.10 was meant to be used on the IBM PC and the above manual refers to the IBM PC manuals many times. The following are the IBM PC manuals:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20220525044729/http://www.minuszerodegrees.net/manuals/IBM_5150_Guide_to_Operations_6322510_APR84.pdf" target="_blank" rel="noopener noreferrer">Guide to Operations</a></li>
+<li><a href="https://web.archive.org/web/20220601195619/http://www.minuszerodegrees.net/manuals/IBM_5150_Technical_Reference_6322507_APR84.pdf" target="_blank" rel="noopener noreferrer">Technical Reference</a></li>
+<li><a href="https://web.archive.org/web/20220522180745/http://www.minuszerodegrees.net/manuals/IBM_5150_Hardware_Maintenance_and_Service_6025072_AUG81.pdf" target="_blank" rel="noopener noreferrer">Hardware Maintenance and Service</a></li>
+</ul>
+<p>You can also read the IBM PC XT manuals:</p>
+<ul>
+<li><a href="https://web.archive.org/web/20211226042605/http://www.minuszerodegrees.net/manuals/IBM_5160_Guide_to_Operations_6322511_APR84.pdf" target="_blank" rel="noopener noreferrer">Guide to Operations</a></li>
+<li><a href="https://web.archive.org/web/20220522162518/http://www.minuszerodegrees.net/manuals/IBM_5160_Technical_Reference_APR83.pdf" target="_blank" rel="noopener noreferrer">Technical Reference</a></li>
+</ul>
+<p>You can read a lot more manuals related to IBM PCs and many other software and hardware at <a href="http://www.minuszerodegrees.net/" target="_blank" rel="noopener noreferrer">www.minuszerodegrees.net</a> and <a href="http://www.bitsavers.org/pdf/" target="_blank" rel="noopener noreferrer">www.bitsavers.org/pdf/</a>.</p>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="https://winworldpc.com/product/pc-dos/1x" target="_blank" rel="noopener noreferrer">WinWorld page</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IBM_PC_DOS#PC_DOS_1.x" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+<li><a href="https://www.pcjs.org/software/pcx86/sys/dos/ibm/1.10/" target="_blank" rel="noopener noreferrer">PCjs page - Run PC DOS 1.10 in you web browser</a></li>
+<li><a href="https://betawiki.net/wiki/IBM_PC-DOS_1.00" target="_blank" rel="noopener noreferrer">BetaWiki page</a></li>
+<li><a href="https://www.os2museum.com/wp/dos/dos-1-0-and-1-1/" target="_blank" rel="noopener noreferrer">OS/2 Museum Page</a></li>
+<li><a href="https://www.ibm.com/ibm/history/exhibits/pc25/pc25_intro.html" target="_blank" rel="noopener noreferrer">The IBM PC's debut - IBM Archive</a></li>
+<li>Some related YouTube videos:
+<ul>
+<li><a href="https://youtu.be/ZyYPmD5zjFI">https://youtu.be/ZyYPmD5zjFI</a></li>
+<li><a href="https://youtu.be/-aC_9Q5AW3U">https://youtu.be/-aC_9Q5AW3U</a></li>
+<li><a href="https://youtu.be/0PceJO3CAGI">https://youtu.be/0PceJO3CAGI</a></li>
+<li><a href="https://youtu.be/tWKAxqyjA4I">https://youtu.be/tWKAxqyjA4I</a></li>
+<li><a href="https://youtu.be/yXPpLLYMRqI">https://youtu.be/yXPpLLYMRqI</a></li>
+</ul>
+</li>
+</ul>
+<h2>Credits</h2>
+<ul>
+<li>The DOSBox-X emulator is an open source project hosted on <a href="https://github.com/joncampbell123/dosbox-x/" target="_blank" rel="noopener noreferrer">GitHub</a>. Visit <a href="https://dosbox-x.com/" target="_blank" rel="noopener noreferrer">its website</a> to know more.</li>
+<li>The disk image used above was taken from <a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer">WinWorld</a>.</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to install PC DOS 1.10 on DOSBox?</title>
         <author>
@@ -20,7 +114,7 @@
             <category term="DOSBox"/>
             <category term="DOS"/>
 
-        <updated>2022-06-07T15:29:16+05:30</updated>
+        <updated>2022-06-08T17:43:14+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-4.webp" alt="PC DOS 1.10 on DOSBox" />
@@ -35,7 +129,7 @@
 <ul>
 <li><a href="https://winworldpc.com/download/c3acc3b4-c3b9-15c2-adc3-9611c3a5c28f" target="_blank" rel="noopener noreferrer">IBM PC DOS 1.10 archive</a></li>
 </ul>
-<p class="msg msg--success"><strong><span style="text-decoration: underline;">Note</span><br></strong>This tutorial includes screenshots taken using a SVN build of DOSBox. But, I have verified this tutorial to work on release version of DOSBox too. You can use either of them. Note that DOSBox-staging and DOSBox-X are different for DOSBox and don't work for this tutorial. I will post separate tutorials for them.</p>
+<p class="msg msg--success"><strong><span style="text-decoration: underline;">Note</span><br></strong>This tutorial includes screenshots taken using a SVN build of DOSBox. But, I have verified this tutorial to work on release version of DOSBox too. You can use either of them. Note that DOSBox-staging and DOSBox-X are different for DOSBox and don't work for this tutorial. For DOSBox-X, see <a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/" target="_blank" rel="noopener noreferrer">this tutorial</a>. I will post another tutorial for DOSBox-Staging soon.</p>
 <h2>Creating the Virtual Machine</h2>
 <p>If you have not already installed DOSBox, you can visit out tutorial <a href="https://legacyinstaller.pcriot.com/vm-software/dosbox" target="_blank" rel="noopener noreferrer">on how to do so on windows</a>. On Linux, you can just install the <code>dosbox</code> package on your favourite distribution.</p>
 <p>Create a folder where you will store all the files related to this tutorial. Extract the PC DOS 1.10 archive and open the extracted folder. Go to the images folder inside it and open the Raw folder. Copy the file called <code>DISK01.IMA</code> to the VM folder. You may want to rename it to something like <code>PCDOS1.10.IMA</code> to avoid confusion later.</p>
@@ -643,7 +737,7 @@
             <category term="DOSBox-X"/>
             <category term="DOS"/>
 
-        <updated>2022-05-25T18:48:31+05:30</updated>
+        <updated>2022-06-08T17:42:08+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2-2.png" alt="MS DOS 1.25 on DOSBox-X" />
@@ -659,7 +753,7 @@
 <li><a href="https://winworldpc.com/download/c38ac396-c2a7-6f3c-e280-9e11c3a4c2a8" target="_blank" rel="noopener noreferrer">MS DOS 1.25 CDP OEM archive</a></li>
 </ul>
 <p>MS DOS 1.25 was not sold as a retailed package. It was only available to OEMs. In this tutorial we use the Columbia Data Products OEM that works well on IBM PC clones.</p>
-<p class="msg msg--success"><strong>Note<br></strong>This tutorial uses DOSBox-X. It is not compatible with DOSBox, DOSBox-SVN or DOSBox-Staging. For DOSBox/DOSBox-SVN, see <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on DOSBox</a>. For DOSBox-Staging, see <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on DOSBox-Staging</a>.</p>
+<p class="msg msg--success"><strong><span style="text-decoration: underline;">Note</span><br></strong>This tutorial uses DOSBox-X. It is not compatible with DOSBox, DOSBox-SVN or DOSBox-Staging. For DOSBox/DOSBox-SVN, see <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on DOSBox</a>. For DOSBox-Staging, see <a href="https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/" target="_blank" rel="noopener noreferrer">how to install MS DOS 1.25 on DOSBox-Staging</a>.</p>
 <h2>Creating the Virtual Machine</h2>
 <p>If you have not already installed DOSBox-X, you can install it from its <a href="https://dosbox-x.com/" target="_blank" rel="noopener noreferrer">homepage</a>. On Linux, you can also install it from your distribution's repositories or other third-party repository for your distribution.</p>
 <p>Create a folder to store the files related to you VM. Make sure that the path to the folder does not include a space. Extract the MS DOS 1.25 archive and open the extracted folder. Go to the images folder inside it and copy the file called <code>CDPDOS.IMG</code> to that folder.</p>
@@ -683,7 +777,7 @@
 <p>On Windows, create a file called MSDOS1.25.bat in that folder with the following contents:</p>
 <pre>"C:\Program Files\DOSBox-X\dosbox-x.exe" -conf msdos1.25.conf</pre>
 <p>Then double click on that file to launch the VM.</p>
-<p>That's it. We used MS DOS 1.25 in DOSBox-X. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I will post with the IBM PC DOS 1.10 tutorial because they are more detailed and MS DOS and PC DOS are almost same at this stage.</p>
+<p>That's it. We used MS DOS 1.25 in DOSBox-X. Read the manual linked below to learn more about MS DOS 1.25. Also read the manuals which I have posted with the <a href="https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/" target="_blank" rel="noopener noreferrer">IBM PC DOS 1.10 tutorial</a> because they are more detailed and MS DOS and PC DOS are almost same at this stage.</p>
 <h2>Manuals</h2>
 <ul>
 <li><a href="https://winworldpc.com/download/c387c5b8-c38c-c38e-3ce2-809e11c3a4ef" target="_blank" rel="noopener noreferrer">MS DOS 1.25 Manual</a></li>
@@ -857,64 +951,6 @@
 <li>The 86Box emulator is an open source project hosted on <a href="https://github.com/86Box" target="_blank" rel="noopener noreferrer">GitHub</a>. Visit <a href="https://86box.net/" target="_blank" rel="noopener noreferrer">its website</a> to know more.</li>
 <li>The disk image used above was taken from <a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer">WinWorld</a>.</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to use MP/M II?</title>
-        <author>
-            <name>Legacy Installer</name>
-        </author>
-        <link href="https://virtualhub.eu.org/how-to-use-mpm-ii/"/>
-        <id>https://virtualhub.eu.org/how-to-use-mpm-ii/</id>
-            <category term="Other Emulator"/>
-            <category term="CP/M-80"/>
-            <category term="CP/M"/>
-
-        <updated>2022-04-11T14:03:06+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4-2.png" alt="MP/M emulator" />
-                    In the last post, we saw how to experience CP/M-68k using Musashi Simulator. In this tutorial we are going to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4-2.png" alt="MP/M emulator" />
-                <p>In the last post, we saw <a href="https://virtualhub.eu.org/how-to-experience-cpm-68k-using-musashi-simulator/" target="_blank" rel="noopener noreferrer">how to experience CP/M-68k using Musashi Simulator</a>. In this tutorial we are going to use MP/M II. MP/M was a multi-user version of CP/M. You can download the emulator package from here:</p>
-<ul>
-<li><a href="https://archive.org/download/mpm_20220411/MPMonlinux.tar.xz">MP/M II for Linux</a></li>
-<li><a href="https://archive.org/download/mpm_20220411/MPMonwindows.zip">MP/M II for Windows</a></li>
-</ul>
-<h2>Installing MP/M II</h2>
-<p>It is very easy to start using MP/M II. On Linux, extract the above archive and right click on the <code>mpm.sh</code> file and choose "Run as a Program" or run the shell file the way you run any other shell file. On Windows, extract the above archive and double click the <code>Runme.bat</code> file. The Virtual Machine will start (It may ask for admin password. Enter it to continue. It may be needed to start the telnet session).</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-1-xs.png 300w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-1-sm.png 480w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-1-md.png 768w"  alt="MP/M Emulator" width="834" height="630"></figure>Now, you need to connect to MP/M using a telnet client. On different Linux distributions, telnet client is already installed mostly. You need to enter the following command in a new terminal instance to connect to MP/M:</p>
-<pre>telnet localhost</pre>
-<p>On Windows, you may need to enable the telnet client first. See <a href="https://social.technet.microsoft.com/wiki/contents/articles/38433.windows-10-enabling-telnet-client.aspx" target="_blank" rel="noopener noreferrer">this article on Microsoft TechNet</a> to do so. After you have installed telnet client, you can can the above command to connect to MP/M.</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-2-xs.png 300w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-2-sm.png 480w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-2-md.png 768w"  alt="Connecting to MP/M" width="834" height="630"></figure>After you have connected to MP/M, it will open a single user session that is CP/M 2.2. You can use the DIR command to see a list of files:</p>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-3.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-3-xs.png 300w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-3-sm.png 480w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-3-md.png 768w"  alt="MP/M list of files" width="834" height="630"></figure>
-<p>To change to a multi-user session, enter the following command:</p>
-<pre>mpm</pre>
-<figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-4-xs.png 300w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-4-sm.png 480w ,https://virtualhub.eu.org/media/posts/21/responsive/MPM-Altair-Z80-4-md.png 768w"  alt="MP/M multi-user session" width="834" height="630"></figure>To switch back to the single user session, enter the following command:</p>
-<pre>cpm</pre>
-<p>You can now close that window. Read the manuals linked below to learn how to use MP/M. Also, read the manuals linked in our <a href="https://virtualhub.eu.org/how-to-experience-cpm-80-22/" target="_blank" rel="noopener noreferrer">CP/M 2.2 tutorial</a> to learn more as MP/M was based on it.</p>
-<p>You can connect up to four telnet clients to that one server. You can also connect to it from other computers on the same network if you enter the local IP address of the host computer instead of localhost. That's it. We used MP/M, a multi-user Operating System from 1980s.</p>
-<h2>Manuals</h2>
-<ul>
-<li><a href="https://web.archive.org/web/20200726175639/http://bitsavers.org/pdf/digitalResearch/mpm_II/MPMII_Users_Guide_Aug82.pdf" target="_blank" rel="noopener noreferrer">MP/M II User's Guide</a></li>
-<li><a href="https://web.archive.org/web/20200726175730/http://bitsavers.org/pdf/digitalResearch/mpm_II/MPM_II_System_Implementors_Guide_Aug82.pdf" target="_blank" rel="noopener noreferrer">MP/M II System Guide</a></li>
-<li><a href="https://web.archive.org/web/20200726175706/http://bitsavers.org/pdf/digitalResearch/mpm_II/MPM_II_Programmers_Guide_Aug82.pdf" target="_blank" rel="noopener noreferrer">MP/M II Programmer's Guide</a></li>
-</ul>
-<h2>Related Pages</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/MP/M" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
-<li><a href="http://www.cpm.z80.de/" target="_blank" rel="noopener noreferrer">The Unofficial CP/M Web site</a></li>
-<li><a href="http://z80.de/ehome.htm" target="_blank" rel="noopener noreferrer">Gaby's Homepage for CP/M and Computer History</a></li>
-<li><a href="http://www.retroarchive.org/cpm" target="_blank" rel="noopener noreferrer">Commercial CP/M Software (Retro Archive)</a></li>
-<li><a href="http://z80.de/ecpmlink.htm" target="_blank" rel="noopener noreferrer">A lots of other links</a></li>
-</ul>
-<h2>Credits</h2>
-<p>The emulator which is linked above was created by <a href="mailto:peter.schorn@acm.org" target="_blank" rel="noopener noreferrer">Peter Schorn</a>. You can visit <a href="https://schorn.ch/altair.html" target="_blank" rel="noopener noreferrer">his website</a> to download the original emulator and lots of other software.</p>
             ]]>
         </content>
     </entry>

@@ -298,7 +298,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-x/</loc>
-<lastmod>2022-05-25T18:48:31+05:30</lastmod>
+<lastmod>2022-06-08T17:42:08+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-X]]></image:title>
@@ -442,7 +442,7 @@
 </url>
 <url>
 <loc>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox/</loc>
-<lastmod>2022-06-07T15:29:16+05:30</lastmod>
+<lastmod>2022-06-08T17:43:14+05:30</lastmod>
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-4.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on DOSBox]]></image:title>
@@ -458,6 +458,26 @@
 <image:image>
 <image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-3.webp</image:loc>
 <image:title><![CDATA[List of files on PC DOS 1.10 on DOSBox]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/</loc>
+<lastmod>2022-06-08T17:41:05+05:30</lastmod>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-4.webp</image:loc>
+<image:title><![CDATA[PC DOS 1.10 on DOSBox-X]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-1.webp</image:loc>
+<image:title><![CDATA[DOSBox-X config file for PC DOS 1.10]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-2.webp</image:loc>
+<image:title><![CDATA[PC DOS 1.10 on DOSBox-X]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-3.webp</image:loc>
+<image:title><![CDATA[List of files on PC DOS 1.10 on DOSBox-X]]></image:title>
 </image:image>
 </url>
 <url>
