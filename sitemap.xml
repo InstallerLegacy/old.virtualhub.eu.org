@@ -1,614 +1,614 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://virtualhub.eu.org/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://old.virtualhub.eu.org/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://virtualhub.eu.org/</loc>
+<loc>https://old.virtualhub.eu.org/</loc>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/about-virtualhub/</loc>
+<loc>https://old.virtualhub.eu.org/about-virtualhub/</loc>
 <lastmod>2022-03-27T08:14:11+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/1/VirtualHub.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/1/VirtualHub.png</image:loc>
 <image:title><![CDATA[VirtualHub Logo]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/downloads/</loc>
+<loc>https://old.virtualhub.eu.org/downloads/</loc>
 <lastmod>2022-06-03T17:53:29+05:30</lastmod>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-86-dos/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-86-dos/</loc>
 <lastmod>2022-04-06T10:55:42+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/2/86DOS-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/2/86DOS-2-2.png</image:loc>
 <image:title><![CDATA[86DOS asking for date]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/2/86DOS-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/2/86DOS-1.png</image:loc>
 <image:title><![CDATA[86DOS emulator screenshot]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/2/86DOS-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/2/86DOS-2.png</image:loc>
 <image:title><![CDATA[86DOS emulator with 86DOS started screenshot]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/2/86DOS-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/2/86DOS-3.png</image:loc>
 <image:title><![CDATA[DIR command running in 86DOS]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-68k/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-68k/</loc>
 <lastmod>2022-04-09T19:34:00+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-68k]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[CP/M-68k on Altair Z80 emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/19/CPM-68k-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-68k]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-68k-using-musashi-simulator/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-68k-using-musashi-simulator/</loc>
 <lastmod>2022-04-09T19:36:01+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2-2.png</image:loc>
 <image:title><![CDATA[List of FIles in Musashi Emulator's CP/M-68k]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-1.png</image:loc>
 <image:title><![CDATA[Musashi Simulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/20/CPM-68k-Musashi-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-68k in Musashi Simulator]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-14/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-14/</loc>
 <lastmod>2022-04-06T10:54:22+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/4/CPM-80-1.4-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/4/CPM-80-1.4-2-2.png</image:loc>
 <image:title><![CDATA[CP/M-80 1.4 DIR command screenshot]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/4/CPM-80-1.4-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/4/CPM-80-1.4-1.png</image:loc>
 <image:title><![CDATA[CP/M-80 1.4 emulator screenshot]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/4/CPM-80-1.4-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/4/CPM-80-1.4-2.png</image:loc>
 <image:title><![CDATA[CP/M-80 1.4 DIR command screenshot]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:53:39+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/5/CPM-80-2.2-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/5/CPM-80-2.2-2-2.png</image:loc>
 <image:title><![CDATA[CP/M-80 v2.2 list of files]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/5/CPM-80-2.2-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/5/CPM-80-2.2-1.png</image:loc>
 <image:title><![CDATA[CP/M-80 v2.2 emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/5/CPM-80-2.2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/5/CPM-80-2.2-2.png</image:loc>
 <image:title><![CDATA[CP/M-80 2.2 list of files]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mame-kaypro-ii-emulation/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-22-using-mame-kaypro-ii-emulation/</loc>
 <lastmod>2022-04-06T11:47:36+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-5-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-5-2.png</image:loc>
 <image:title><![CDATA[List of files in KAYPRO II CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-1.png</image:loc>
 <image:title><![CDATA[MAME KAYPRO II window]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-2.png</image:loc>
 <image:title><![CDATA[KAYPRO II asking for floppy disk]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-3.png</image:loc>
 <image:title><![CDATA[Emulator main menu]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-4.png</image:loc>
 <image:title><![CDATA[Choosing the floppy image]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-5.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/6/CPM-80-2.2-MAME-kayproii-5.png</image:loc>
 <image:title><![CDATA[List of files in KAYPRO CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-ncr-decision-mate-v-emulation/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-ncr-decision-mate-v-emulation/</loc>
 <lastmod>2022-04-06T11:48:39+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-5-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-5-2.png</image:loc>
 <image:title><![CDATA[List of Files in DMV CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-1.png</image:loc>
 <image:title><![CDATA[NCR Decision Mate V emulator window]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-2.png</image:loc>
 <image:title><![CDATA[Disk not found error in DMV]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-3.png</image:loc>
 <image:title><![CDATA[DMV main menu]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-4.png</image:loc>
 <image:title><![CDATA[DMV Floppy Dick choose]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-5.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/8/CPM-80-2.2-dmv-5.png</image:loc>
 <image:title><![CDATA[List of files in DMV CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-sharp-x1-emulation/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-22-using-mames-sharp-x1-emulation/</loc>
 <lastmod>2022-04-08T14:00:14+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-5-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-5-2.png</image:loc>
 <image:title><![CDATA[List of FIles in Sharp X1 CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7//CPM-80-2.2-MAME-x1-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7//CPM-80-2.2-MAME-x1-1.png</image:loc>
 <image:title><![CDATA[MAME's X1 emulation window]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-2.png</image:loc>
 <image:title><![CDATA[Sharp X1 OS loader screen]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-3.png</image:loc>
 <image:title><![CDATA[Sharp X1 main menu]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-4.png</image:loc>
 <image:title><![CDATA[Sharp X1 floppy disk image chooser]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-5.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/7/CPM-80-2.2-MAME-x1-5.png</image:loc>
 <image:title><![CDATA[List to files in Sharp X1 CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-22-using-yaze/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-22-using-yaze/</loc>
 <lastmod>2022-04-06T19:44:32+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-3-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-3-2.png</image:loc>
 <image:title><![CDATA[List of FIles in YAZE CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-1.png</image:loc>
 <image:title><![CDATA[sudo make install yaze]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-2.png</image:loc>
 <image:title><![CDATA[YAZE running]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-3.png</image:loc>
 <image:title><![CDATA[List of Files on YAZE CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-4.png</image:loc>
 <image:title><![CDATA[YAZE Windows Installer]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-5.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/9/CPM-80-2.2-YAZE-5.png</image:loc>
 <image:title><![CDATA[YAZE on Windows]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-experience-cpm-80-30/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-experience-cpm-80-30/</loc>
 <lastmod>2022-04-07T19:08:41+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-80 3.0]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-1.png</image:loc>
 <image:title><![CDATA[CP/M-80 3.0 on Altair Z80 Emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/18/CPM-80-3.0-AltairZ80-2.png</image:loc>
 <image:title><![CDATA[List of Files in CP/M-80 3.0]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-86box/</loc>
 <lastmod>2022-06-03T17:48:41+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on 86Box]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-1.png</image:loc>
 <image:title><![CDATA[86Box new VM wizard]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-2.png</image:loc>
 <image:title><![CDATA[86Box MS DOS 1.25 settings]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-3.png</image:loc>
 <image:title><![CDATA[Choosing the Floppy DIsk]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-4.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on 86Box]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/22/MS-DOS-1.25-86Box-5.png</image:loc>
 <image:title><![CDATA[List of files in MS DOS 1.25]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox/</loc>
 <lastmod>2022-06-07T15:23:43+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-1.png</image:loc>
 <image:title><![CDATA[Editing the DOSBox config file]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/23/MSDOS1.25-DOSBox-3.png</image:loc>
 <image:title><![CDATA[List of files in MS DOS 1.25]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-staging/</loc>
 <lastmod>2022-05-25T18:47:27+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-Staging]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-1.png</image:loc>
 <image:title><![CDATA[Editing the default DOSBox-Staging config file]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-staging]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/25/MSDOS1.25-DOSBox-Staging-3.png</image:loc>
 <image:title><![CDATA[List of files on MS DOS 1.25 on DOSBox-Staging]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-x/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-dosbox-x/</loc>
 <lastmod>2022-06-08T17:42:08+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-X]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-1.png</image:loc>
 <image:title><![CDATA[Changing the DOSBox-X default config]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on DOSBox-X]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/24/MSDOS1.25-DOSBox-X-3.png</image:loc>
 <image:title><![CDATA[List of files on MS DOS 1.25 on dosbox-x]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-mame/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-mame/</loc>
 <lastmod>2022-05-26T09:32:47+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3-2.png</image:loc>
 <image:title><![CDATA[List of Files on MS DOS 1.25 on MAME]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-1.png</image:loc>
 <image:title><![CDATA[MAME with ibm5150]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-2.png</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on MAME]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/26/MSDOS1.25-MAME-3.png</image:loc>
 <image:title><![CDATA[List of files on MS DOS 1.25 on MAME]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-pcem/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-pcem/</loc>
 <lastmod>2022-06-02T13:45:40+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10-2.webp</image:loc>
 <image:title><![CDATA[List of files in MS DOS 1.25 on PCem]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-1.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-1.webp</image:loc>
 <image:title><![CDATA[PCem new config dialog box]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-2.webp</image:loc>
 <image:title><![CDATA[Pcem Settings window]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-3.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-3.webp</image:loc>
 <image:title><![CDATA[PCem settings- video devices]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-4.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-4.webp</image:loc>
 <image:title><![CDATA[PCem settings - Storage devices]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-5.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-5.webp</image:loc>
 <image:title><![CDATA[PCem starting]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-6.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-6.webp</image:loc>
 <image:title><![CDATA[PCem started]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-7.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-7.webp</image:loc>
 <image:title><![CDATA[PCem change drive]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-8.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-8.webp</image:loc>
 <image:title><![CDATA[Ctrl + Alt + Del]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-9.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-9.webp</image:loc>
 <image:title><![CDATA[MS DOS 1.25 on PCem]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/28/MSDOS1.25-PCem-10.webp</image:loc>
 <image:title><![CDATA[List of files in MS DOS 1.25 on PCem]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-ms-dos-125-on-virtualbox/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-ms-dos-125-on-virtualbox/</loc>
 <lastmod>2022-06-01T15:39:06+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/27/MSDOS1.25-VirtualBox-7-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/27/MSDOS1.25-VirtualBox-7-2.webp</image:loc>
 <image:title><![CDATA[List of Files in MS DOS 1.25 on VirtualBox]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-multiplan-106-on-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-multiplan-106-on-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:49:05+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1-2.png</image:loc>
 <image:title><![CDATA[Multiplan 1.06 for CP/M-80 2.2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/12/Multiplan-1.06-CPM-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[Multiplan 1.06 for CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-pc-dos-110-on-86box/</loc>
 <lastmod>2022-06-03T18:27:51+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6-2.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on 86Box]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-1.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-1.webp</image:loc>
 <image:title><![CDATA[86Box New VM wizard]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-2.webp</image:loc>
 <image:title><![CDATA[Machine Settings 86Box ]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-3.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-3.webp</image:loc>
 <image:title><![CDATA[86Box Video settings]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-4.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-4.webp</image:loc>
 <image:title><![CDATA[86Box Input devices settings]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-5.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-5.webp</image:loc>
 <image:title><![CDATA[Change floppy drive]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-6.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on 86Box]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-7.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/29/PCDOS1.10-86Box-7.webp</image:loc>
 <image:title><![CDATA[List of files on PC DOS 1.10 on 86Box]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox/</loc>
 <lastmod>2022-06-08T17:43:14+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-4.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-4.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on DOSBox]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-1.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-1.webp</image:loc>
 <image:title><![CDATA[DOSBox config file for PC DOS 1.10]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-2.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on DOSBox]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-3.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/30/PCDOS1.10-DOSBox-3.webp</image:loc>
 <image:title><![CDATA[List of files on PC DOS 1.10 on DOSBox]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-pc-dos-110-on-dosbox-x/</loc>
 <lastmod>2022-06-08T17:41:05+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-4.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-4.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on DOSBox-X]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-1.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-1.webp</image:loc>
 <image:title><![CDATA[DOSBox-X config file for PC DOS 1.10]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-2.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-2.webp</image:loc>
 <image:title><![CDATA[PC DOS 1.10 on DOSBox-X]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-3.webp</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/31/PCDOS1.10-DOSBox-X-3.webp</image:loc>
 <image:title><![CDATA[List of files on PC DOS 1.10 on DOSBox-X]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-supercalc-100-on-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-supercalc-100-on-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:48:17+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[SuperCalc Splash Screen]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/13/SuperCalc-1.00-CPM-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[SuperCalc 1.00 on CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-wordstar-33-on-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-wordstar-33-on-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:50:13+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1-2.png</image:loc>
 <image:title><![CDATA[WordStar 3.3 on CP/M-80 2.2 on Altair Z80 emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/10/WordStar-3.3-CPM-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[WordStar 3.3 running on CP/M-80 2.2 on Altair Z80 emulator]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-install-wordstar-40-on-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-install-wordstar-40-on-cpm-80-22/</loc>
 <lastmod>2022-04-08T13:58:19+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2-2.png</image:loc>
 <image:title><![CDATA[Sample file on WordStar 4.0]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[WordStar 4.0]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/11/WordStar-4.0-CPM-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[A sample document on WordStar 4.0]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-use-mpm-ii/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-use-mpm-ii/</loc>
 <lastmod>2022-04-11T14:03:06+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4-2.png</image:loc>
 <image:title><![CDATA[MP/M emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-1.png</image:loc>
 <image:title><![CDATA[MP/M Emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-2.png</image:loc>
 <image:title><![CDATA[Connecting to MP/M]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-3.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-3.png</image:loc>
 <image:title><![CDATA[MP/M list of files]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/21/MPM-Altair-Z80-4.png</image:loc>
 <image:title><![CDATA[MP/M multi-user session]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-use-the-demo-included-with-ncr-decision-mate-v-on-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:47:00+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/DMV-demo-Screenshot-1.png</image:loc>
 <image:title><![CDATA[NC Decision Mate V demo]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/DEMO-CPM-MAME-dmv-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/DEMO-CPM-MAME-dmv-1.png</image:loc>
 <image:title><![CDATA[Insert the demo disk]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1-thumbnail.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/gallery/DMV-demo-Screenshot-1-thumbnail.png</image:loc>
 <image:title><![CDATA[DMV Demo Screeshot 1]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2-thumbnail.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-2-thumbnail.png</image:loc>
 <image:title><![CDATA[DMV Demo Screeshot 2]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3-thumbnail.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-3-thumbnail.png</image:loc>
 <image:title><![CDATA[DMV Demo Screeshot 3]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4-thumbnail.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/16/gallery/DMV-Demo-Screenshot-4-thumbnail.png</image:loc>
 <image:title><![CDATA[DMV Demo Screeshot 4]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-use-wordmaster-with-sharp-x1-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-use-wordmaster-with-sharp-x1-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:47:46+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1-2.png</image:loc>
 <image:title><![CDATA[WordMaster Splash screen]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/14/WordMaster-1.0-CPM-MAME-x1-1.png</image:loc>
 <image:title><![CDATA[WordMaster on Sharp X1 CP/M-80 2.2]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-use-wordstar-30-with-ncr-decision-mate-v-cpm-80-22/</loc>
 <lastmod>2022-04-06T10:47:22+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/15/WordStar-3.0-CPM-MAME-dmv-1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/15/WordStar-3.0-CPM-MAME-dmv-1-2.png</image:loc>
 <image:title><![CDATA[WordStar 3.0 on DMV]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/15//WordStar-3.0-CPM-MAME-dmv-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/15//WordStar-3.0-CPM-MAME-dmv-1.png</image:loc>
 <image:title><![CDATA[WordStar 3.0 on DMV]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/</loc>
+<loc>https://old.virtualhub.eu.org/how-to-use-wordstar-40-on-yaze/</loc>
 <lastmod>2022-04-06T19:41:19+05:30</lastmod>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1.png</image:loc>
 <image:title><![CDATA[WordStar 4.0 on YAZE]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1-2.png</image:loc>
+<image:loc>https://old.virtualhub.eu.org/media/posts/17/WordStar-4.0-CPM-YAZE-1-2.png</image:loc>
 <image:title><![CDATA[WordStar 4.0 on YAZE]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://virtualhub.eu.org/page/2/</loc>
+<loc>https://old.virtualhub.eu.org/page/2/</loc>
 </url>
 </urlset>
